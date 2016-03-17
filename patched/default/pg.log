@@ -1,0 +1,725 @@
+1457876485.344 2016-03-13 13:41:25 UTC FATAL:  the database system is starting up
+1457876485.344 2016-03-13 13:41:25 UTC LOG:  database system was shut down at 2016-03-13 13:41:23 UTC
+1457876485.346 2016-03-13 13:41:25 UTC LOG:  MultiXact member wraparound protections are now enabled
+1457876485.348 2016-03-13 13:41:25 UTC LOG:  database system is ready to accept connections
+1457876485.348 2016-03-13 13:41:25 UTC LOG:  autovacuum launcher started
+1457876491.416 2016-03-13 13:41:31 UTC LOG:  checkpoint starting: immediate force wait
+1457876491.808 2016-03-13 13:41:31 UTC LOG:  checkpoint complete: wrote 0 buffers (0.0%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=0.388 s, sync=0.000 s, total=0.391 s; sync files=0, longest=0.000 s, average=0.000 s; distance=0 kB, estimate=0 kB
+1457876692.304 2016-03-13 13:44:52 UTC LOG:  checkpoint starting: xlog
+1457876846.425 2016-03-13 13:47:26 UTC LOG:  checkpoint complete: wrote 3453452 buffers (41.2%); 0 transaction log file(s) added, 0 removed, 0 recycled; write=154.055 s, sync=0.025 s, total=154.121 s; sync files=899, longest=0.004 s, average=0.000 s; distance=26835367 kB, estimate=26835367 kB
+1457876949.388 2016-03-13 13:49:09 UTC LOG:  checkpoint starting: xlog
+1457877114.452 2016-03-13 13:51:54 UTC LOG:  checkpoint complete: wrote 3401403 buffers (40.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=162.541 s, sync=0.029 s, total=165.064 s; sync files=893, longest=0.007 s, average=0.000 s; distance=26837126 kB, estimate=26837126 kB
+1457877218.923 2016-03-13 13:53:38 UTC LOG:  checkpoint starting: xlog
+1457877352.263 2016-03-13 13:55:52 UTC LOG:  checkpoint complete: wrote 2552889 buffers (30.4%); 0 transaction log file(s) added, 2 removed, 1636 recycled; write=130.855 s, sync=0.034 s, total=133.340 s; sync files=893, longest=0.009 s, average=0.000 s; distance=26857701 kB, estimate=26857701 kB
+1457877435.648 2016-03-13 13:57:15 UTC LOG:  checkpoint starting: xlog
+1457877574.501 2016-03-13 13:59:34 UTC LOG:  checkpoint complete: wrote 3407803 buffers (40.6%); 0 transaction log file(s) added, 1 removed, 1638 recycled; write=136.535 s, sync=0.018 s, total=138.852 s; sync files=893, longest=0.009 s, average=0.000 s; distance=26832576 kB, estimate=26855188 kB
+1457877658.491 2016-03-13 14:00:58 UTC LOG:  checkpoint starting: xlog
+1457877809.384 2016-03-13 14:03:29 UTC LOG:  checkpoint complete: wrote 3103179 buffers (37.0%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=148.235 s, sync=0.039 s, total=150.893 s; sync files=892, longest=0.008 s, average=0.000 s; distance=26836837 kB, estimate=26853353 kB
+1457877837.508 2016-03-13 14:03:57 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 0.29s/0.55u sec elapsed 1.17 sec
+1457877891.831 2016-03-13 14:04:51 UTC LOG:  checkpoint starting: xlog
+1457878017.486 2016-03-13 14:06:57 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 0.24s/0.55u sec elapsed 1.07 sec
+1457878032.531 2016-03-13 14:07:12 UTC LOG:  checkpoint complete: wrote 3404134 buffers (40.6%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=138.231 s, sync=0.034 s, total=140.700 s; sync files=892, longest=0.010 s, average=0.000 s; distance=26837157 kB, estimate=26851734 kB
+1457878116.058 2016-03-13 14:08:36 UTC LOG:  checkpoint starting: xlog
+1457878199.878 2016-03-13 14:09:59 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 0.35s/0.49u sec elapsed 3.28 sec
+1457878262.998 2016-03-13 14:11:02 UTC LOG:  checkpoint complete: wrote 3391576 buffers (40.4%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=144.353 s, sync=0.018 s, total=146.940 s; sync files=891, longest=0.006 s, average=0.000 s; distance=26837053 kB, estimate=26850266 kB
+1457878348.009 2016-03-13 14:12:28 UTC LOG:  checkpoint starting: xlog
+1457878378.801 2016-03-13 14:12:58 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 0.33s/0.50u sec elapsed 2.23 sec
+1457878491.628 2016-03-13 14:14:51 UTC LOG:  checkpoint complete: wrote 3397547 buffers (40.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=141.155 s, sync=0.017 s, total=143.618 s; sync files=893, longest=0.003 s, average=0.000 s; distance=26836895 kB, estimate=26848929 kB
+1457878558.375 2016-03-13 14:15:58 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 0.29s/0.54u sec elapsed 1.69 sec
+1457878576.275 2016-03-13 14:16:16 UTC LOG:  checkpoint starting: xlog
+1457878725.658 2016-03-13 14:18:45 UTC LOG:  checkpoint complete: wrote 3399601 buffers (40.5%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=146.787 s, sync=0.017 s, total=149.382 s; sync files=893, longest=0.006 s, average=0.000 s; distance=26837035 kB, estimate=26847739 kB
+1457878799.614 2016-03-13 14:19:59 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 0.40s/0.57u sec elapsed 2.82 sec
+1457878809.589 2016-03-13 14:20:09 UTC LOG:  checkpoint starting: xlog
+1457878951.069 2016-03-13 14:22:31 UTC LOG:  checkpoint complete: wrote 3395755 buffers (40.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=138.918 s, sync=0.029 s, total=141.479 s; sync files=893, longest=0.005 s, average=0.000 s; distance=26836994 kB, estimate=26846665 kB
+1457879037.009 2016-03-13 14:23:57 UTC LOG:  checkpoint starting: xlog
+1457879040.681 2016-03-13 14:24:00 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 0.47s/0.54u sec elapsed 3.83 sec
+1457879183.047 2016-03-13 14:26:23 UTC LOG:  checkpoint complete: wrote 3394497 buffers (40.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=143.342 s, sync=0.171 s, total=146.037 s; sync files=893, longest=0.148 s, average=0.000 s; distance=26836969 kB, estimate=26845695 kB
+1457879269.717 2016-03-13 14:27:49 UTC LOG:  checkpoint starting: xlog
+1457879341.732 2016-03-13 14:29:01 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 0.52s/0.56u sec elapsed 4.70 sec
+1457879411.614 2016-03-13 14:30:11 UTC LOG:  checkpoint complete: wrote 3390545 buffers (40.4%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=139.483 s, sync=0.020 s, total=141.896 s; sync files=893, longest=0.005 s, average=0.000 s; distance=26837021 kB, estimate=26844828 kB
+1457879497.290 2016-03-13 14:31:37 UTC LOG:  checkpoint starting: xlog
+1457879642.227 2016-03-13 14:34:02 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 0.52s/0.64u sec elapsed 5.08 sec
+1457879642.274 2016-03-13 14:34:02 UTC LOG:  checkpoint complete: wrote 3392845 buffers (40.4%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=142.480 s, sync=0.027 s, total=144.983 s; sync files=894, longest=0.006 s, average=0.000 s; distance=26836957 kB, estimate=26844041 kB
+1457879728.963 2016-03-13 14:35:28 UTC LOG:  checkpoint starting: xlog
+1457879872.902 2016-03-13 14:37:52 UTC LOG:  checkpoint complete: wrote 3390095 buffers (40.4%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=141.335 s, sync=0.032 s, total=143.938 s; sync files=896, longest=0.008 s, average=0.000 s; distance=26837028 kB, estimate=26843339 kB
+1457879942.597 2016-03-13 14:39:02 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 0.64s/0.62u sec elapsed 5.28 sec
+1457879960.054 2016-03-13 14:39:20 UTC LOG:  checkpoint starting: xlog
+1457880108.003 2016-03-13 14:41:48 UTC LOG:  checkpoint complete: wrote 3394375 buffers (40.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=145.431 s, sync=0.024 s, total=147.949 s; sync files=896, longest=0.006 s, average=0.000 s; distance=26836949 kB, estimate=26842700 kB
+1457880195.332 2016-03-13 14:43:15 UTC LOG:  checkpoint starting: xlog
+1457880304.677 2016-03-13 14:45:04 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 0.66s/0.69u sec elapsed 7.20 sec
+1457880341.661 2016-03-13 14:45:41 UTC LOG:  checkpoint complete: wrote 3379034 buffers (40.3%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=143.780 s, sync=0.033 s, total=146.329 s; sync files=896, longest=0.011 s, average=0.000 s; distance=26836976 kB, estimate=26842128 kB
+1457880430.500 2016-03-13 14:47:10 UTC LOG:  checkpoint starting: xlog
+1457880586.930 2016-03-13 14:49:46 UTC LOG:  checkpoint complete: wrote 3388297 buffers (40.4%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=153.927 s, sync=0.049 s, total=156.429 s; sync files=895, longest=0.016 s, average=0.000 s; distance=26836959 kB, estimate=26841611 kB
+1457880664.605 2016-03-13 14:51:04 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 0.82s/0.66u sec elapsed 6.98 sec
+1457880675.257 2016-03-13 14:51:15 UTC LOG:  checkpoint starting: xlog
+1457880834.198 2016-03-13 14:53:54 UTC LOG:  checkpoint complete: wrote 3379043 buffers (40.3%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=156.243 s, sync=0.034 s, total=158.940 s; sync files=897, longest=0.007 s, average=0.000 s; distance=26837014 kB, estimate=26841151 kB
+1457880923.041 2016-03-13 14:55:23 UTC LOG:  checkpoint starting: xlog
+1457881100.892 2016-03-13 14:58:20 UTC LOG:  checkpoint complete: wrote 3379093 buffers (40.3%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=175.211 s, sync=0.019 s, total=177.850 s; sync files=898, longest=0.005 s, average=0.000 s; distance=26837066 kB, estimate=26840743 kB
+1457881145.630 2016-03-13 14:59:05 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 0.88s/0.72u sec elapsed 7.69 sec
+1457881189.688 2016-03-13 14:59:49 UTC LOG:  checkpoint starting: xlog
+1457881366.934 2016-03-13 15:02:46 UTC LOG:  checkpoint complete: wrote 3378479 buffers (40.3%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=174.777 s, sync=0.015 s, total=177.246 s; sync files=898, longest=0.002 s, average=0.000 s; distance=26836907 kB, estimate=26840359 kB
+1457881456.645 2016-03-13 15:04:16 UTC LOG:  checkpoint starting: xlog
+1457881637.523 2016-03-13 15:07:17 UTC LOG:  checkpoint complete: wrote 3372928 buffers (40.2%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=178.111 s, sync=0.162 s, total=180.878 s; sync files=896, longest=0.125 s, average=0.000 s; distance=26836941 kB, estimate=26840017 kB
+1457881687.033 2016-03-13 15:08:07 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 0.93s/0.82u sec elapsed 8.92 sec
+1457881729.297 2016-03-13 15:08:49 UTC LOG:  checkpoint starting: xlog
+1457881920.650 2016-03-13 15:12:00 UTC LOG:  checkpoint complete: wrote 3371785 buffers (40.2%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=188.796 s, sync=0.034 s, total=191.353 s; sync files=899, longest=0.003 s, average=0.000 s; distance=26837171 kB, estimate=26839733 kB
+1457882011.367 2016-03-13 15:13:31 UTC LOG:  checkpoint starting: xlog
+1457882196.292 2016-03-13 15:16:36 UTC LOG:  checkpoint complete: wrote 3365557 buffers (40.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=182.451 s, sync=0.026 s, total=184.924 s; sync files=896, longest=0.008 s, average=0.000 s; distance=26837026 kB, estimate=26839462 kB
+1457882287.594 2016-03-13 15:18:07 UTC LOG:  checkpoint starting: xlog
+1457882287.927 2016-03-13 15:18:07 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 1.09s/0.79u sec elapsed 9.53 sec
+1457882486.624 2016-03-13 15:21:26 UTC LOG:  checkpoint complete: wrote 3358342 buffers (40.0%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=196.502 s, sync=0.016 s, total=199.030 s; sync files=898, longest=0.002 s, average=0.000 s; distance=26836908 kB, estimate=26839207 kB
+1457882577.978 2016-03-13 15:22:57 UTC LOG:  checkpoint starting: xlog
+1457882769.099 2016-03-13 15:26:09 UTC LOG:  checkpoint complete: wrote 3356490 buffers (40.0%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=188.473 s, sync=0.017 s, total=191.120 s; sync files=895, longest=0.003 s, average=0.000 s; distance=26836895 kB, estimate=26838975 kB
+1457882862.437 2016-03-13 15:27:42 UTC LOG:  checkpoint starting: xlog
+1457882995.998 2016-03-13 15:29:55 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 1.27s/0.86u sec elapsed 57.27 sec
+1457883061.044 2016-03-13 15:31:01 UTC LOG:  checkpoint complete: wrote 3344540 buffers (39.9%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=196.270 s, sync=0.026 s, total=198.606 s; sync files=897, longest=0.007 s, average=0.000 s; distance=26837093 kB, estimate=26838787 kB
+1457883154.654 2016-03-13 15:32:34 UTC LOG:  checkpoint starting: xlog
+1457883361.197 2016-03-13 15:36:01 UTC LOG:  checkpoint complete: wrote 3338859 buffers (39.8%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=203.855 s, sync=0.024 s, total=206.542 s; sync files=897, longest=0.006 s, average=0.000 s; distance=26836881 kB, estimate=26838597 kB
+1457883454.665 2016-03-13 15:37:34 UTC LOG:  checkpoint starting: xlog
+1457883673.308 2016-03-13 15:41:13 UTC LOG:  checkpoint complete: wrote 3336204 buffers (39.8%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=216.143 s, sync=0.023 s, total=218.642 s; sync files=897, longest=0.007 s, average=0.000 s; distance=26837061 kB, estimate=26838443 kB
+1457883731.519 2016-03-13 15:42:11 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 1.38s/0.88u sec elapsed 11.99 sec
+1457883767.474 2016-03-13 15:42:47 UTC LOG:  checkpoint starting: xlog
+1457883977.914 2016-03-13 15:46:17 UTC LOG:  checkpoint complete: wrote 3329207 buffers (39.7%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=207.917 s, sync=0.012 s, total=210.440 s; sync files=899, longest=0.002 s, average=0.000 s; distance=26836912 kB, estimate=26838290 kB
+1457884071.514 2016-03-13 15:47:51 UTC LOG:  checkpoint starting: xlog
+1457884293.503 2016-03-13 15:51:33 UTC LOG:  checkpoint complete: wrote 3316543 buffers (39.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=219.414 s, sync=0.032 s, total=221.989 s; sync files=897, longest=0.007 s, average=0.000 s; distance=26837167 kB, estimate=26838178 kB
+1457884388.259 2016-03-13 15:53:08 UTC LOG:  checkpoint starting: xlog
+1457884602.539 2016-03-13 15:56:42 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 1.57s/1.14u sec elapsed 42.68 sec
+1457884602.834 2016-03-13 15:56:42 UTC LOG:  checkpoint complete: wrote 3311081 buffers (39.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=211.824 s, sync=0.038 s, total=214.574 s; sync files=900, longest=0.007 s, average=0.000 s; distance=26836947 kB, estimate=26838055 kB
+1457884697.945 2016-03-13 15:58:17 UTC LOG:  checkpoint starting: xlog
+1457884921.726 2016-03-13 16:02:01 UTC LOG:  checkpoint complete: wrote 3303800 buffers (39.4%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=221.070 s, sync=0.032 s, total=223.780 s; sync files=899, longest=0.003 s, average=0.000 s; distance=26836995 kB, estimate=26837949 kB
+1457885017.224 2016-03-13 16:03:37 UTC LOG:  checkpoint starting: xlog
+1457885235.289 2016-03-13 16:07:15 UTC LOG:  checkpoint complete: wrote 3291044 buffers (39.2%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=215.376 s, sync=0.037 s, total=218.065 s; sync files=897, longest=0.006 s, average=0.000 s; distance=26836829 kB, estimate=26837837 kB
+1457885333.769 2016-03-13 16:08:53 UTC LOG:  checkpoint starting: xlog
+1457885509.846 2016-03-13 16:11:49 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 1.78s/1.10u sec elapsed 49.53 sec
+1457885545.238 2016-03-13 16:12:25 UTC LOG:  checkpoint complete: wrote 3284849 buffers (39.2%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=208.699 s, sync=0.031 s, total=211.468 s; sync files=900, longest=0.005 s, average=0.000 s; distance=26837008 kB, estimate=26837754 kB
+1457885641.917 2016-03-13 16:14:01 UTC LOG:  checkpoint starting: xlog
+1457885862.605 2016-03-13 16:17:42 UTC LOG:  checkpoint complete: wrote 3273487 buffers (39.0%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=217.907 s, sync=0.023 s, total=220.688 s; sync files=898, longest=0.003 s, average=0.000 s; distance=26837159 kB, estimate=26837694 kB
+1457885960.367 2016-03-13 16:19:20 UTC LOG:  checkpoint starting: xlog
+1457886168.258 2016-03-13 16:22:48 UTC LOG:  checkpoint complete: wrote 3261467 buffers (38.9%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=205.228 s, sync=0.027 s, total=207.890 s; sync files=898, longest=0.003 s, average=0.000 s; distance=26836931 kB, estimate=26837618 kB
+1457886266.230 2016-03-13 16:24:26 UTC LOG:  checkpoint starting: xlog
+1457886477.113 2016-03-13 16:27:57 UTC LOG:  checkpoint complete: wrote 3249410 buffers (38.7%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=208.197 s, sync=0.027 s, total=210.883 s; sync files=897, longest=0.003 s, average=0.000 s; distance=26836993 kB, estimate=26837555 kB
+1457886495.453 2016-03-13 16:28:15 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 1.58s/1.13u sec elapsed 14.60 sec
+1457886576.275 2016-03-13 16:29:36 UTC LOG:  checkpoint starting: xlog
+1457886785.588 2016-03-13 16:33:05 UTC LOG:  checkpoint complete: wrote 3247215 buffers (38.7%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=206.568 s, sync=0.036 s, total=209.312 s; sync files=902, longest=0.003 s, average=0.000 s; distance=26836925 kB, estimate=26837492 kB
+1457886883.295 2016-03-13 16:34:43 UTC LOG:  checkpoint starting: xlog
+1457887092.103 2016-03-13 16:38:12 UTC LOG:  checkpoint complete: wrote 3226958 buffers (38.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=206.150 s, sync=0.032 s, total=208.807 s; sync files=898, longest=0.003 s, average=0.000 s; distance=26837007 kB, estimate=26837444 kB
+1457887191.566 2016-03-13 16:39:51 UTC LOG:  checkpoint starting: xlog
+1457887393.348 2016-03-13 16:43:13 UTC LOG:  checkpoint complete: wrote 3218061 buffers (38.4%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=199.122 s, sync=0.022 s, total=201.782 s; sync files=898, longest=0.001 s, average=0.000 s; distance=26836953 kB, estimate=26837395 kB
+1457887494.205 2016-03-13 16:44:54 UTC LOG:  checkpoint starting: xlog
+1457887538.055 2016-03-13 16:45:38 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 1.69s/1.07u sec elapsed 36.73 sec
+1457887692.302 2016-03-13 16:48:12 UTC LOG:  checkpoint complete: wrote 3205323 buffers (38.2%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=195.581 s, sync=0.035 s, total=198.096 s; sync files=902, longest=0.004 s, average=0.000 s; distance=26837038 kB, estimate=26837359 kB
+1457887792.759 2016-03-13 16:49:52 UTC LOG:  checkpoint starting: xlog
+1457887990.890 2016-03-13 16:53:10 UTC LOG:  checkpoint complete: wrote 3196930 buffers (38.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=195.574 s, sync=0.013 s, total=198.131 s; sync files=901, longest=0.003 s, average=0.000 s; distance=26837039 kB, estimate=26837327 kB
+1457888092.319 2016-03-13 16:54:52 UTC LOG:  checkpoint starting: xlog
+1457888286.902 2016-03-13 16:58:06 UTC LOG:  checkpoint complete: wrote 3181655 buffers (37.9%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=191.642 s, sync=0.048 s, total=194.583 s; sync files=901, longest=0.023 s, average=0.000 s; distance=26836924 kB, estimate=26837287 kB
+1457888388.614 2016-03-13 16:59:48 UTC LOG:  checkpoint starting: xlog
+1457888582.863 2016-03-13 17:03:02 UTC LOG:  checkpoint complete: wrote 3166855 buffers (37.8%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=191.277 s, sync=0.038 s, total=194.249 s; sync files=902, longest=0.010 s, average=0.000 s; distance=26837035 kB, estimate=26837262 kB
+1457888656.756 2016-03-13 17:04:16 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 1.64s/1.09u sec elapsed 14.87 sec
+1457888685.755 2016-03-13 17:04:45 UTC LOG:  checkpoint starting: xlog
+1457888875.060 2016-03-13 17:07:55 UTC LOG:  checkpoint complete: wrote 3157769 buffers (37.6%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=186.400 s, sync=0.029 s, total=189.305 s; sync files=907, longest=0.001 s, average=0.000 s; distance=26837051 kB, estimate=26837241 kB
+1457888977.608 2016-03-13 17:09:37 UTC LOG:  checkpoint starting: xlog
+1457889168.436 2016-03-13 17:12:48 UTC LOG:  checkpoint complete: wrote 3141287 buffers (37.4%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=188.067 s, sync=0.033 s, total=190.827 s; sync files=901, longest=0.007 s, average=0.000 s; distance=26836919 kB, estimate=26837208 kB
+1457889272.942 2016-03-13 17:14:32 UTC LOG:  checkpoint starting: xlog
+1457889462.643 2016-03-13 17:17:42 UTC LOG:  checkpoint complete: wrote 3129415 buffers (37.3%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=187.083 s, sync=0.034 s, total=189.700 s; sync files=902, longest=0.007 s, average=0.000 s; distance=26836966 kB, estimate=26837184 kB
+1457889566.412 2016-03-13 17:19:26 UTC LOG:  checkpoint starting: xlog
+1457889755.055 2016-03-13 17:22:35 UTC LOG:  checkpoint complete: wrote 3116667 buffers (37.2%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=185.995 s, sync=0.022 s, total=188.643 s; sync files=900, longest=0.003 s, average=0.000 s; distance=26836979 kB, estimate=26837164 kB
+1457889857.798 2016-03-13 17:24:17 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 1.74s/1.04u sec elapsed 15.29 sec
+1457889858.909 2016-03-13 17:24:18 UTC LOG:  checkpoint starting: xlog
+1457890044.783 2016-03-13 17:27:24 UTC LOG:  checkpoint complete: wrote 3105321 buffers (37.0%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=183.321 s, sync=0.052 s, total=185.873 s; sync files=906, longest=0.034 s, average=0.000 s; distance=26836993 kB, estimate=26837147 kB
+1457890150.344 2016-03-13 17:29:10 UTC LOG:  checkpoint starting: xlog
+1457890334.577 2016-03-13 17:32:14 UTC LOG:  checkpoint complete: wrote 3085901 buffers (36.8%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=181.459 s, sync=0.022 s, total=184.232 s; sync files=900, longest=0.002 s, average=0.000 s; distance=26836981 kB, estimate=26837130 kB
+1457890439.745 2016-03-13 17:33:59 UTC LOG:  checkpoint starting: xlog
+1457890615.927 2016-03-13 17:36:55 UTC LOG:  checkpoint complete: wrote 3073409 buffers (36.6%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=173.730 s, sync=0.036 s, total=176.182 s; sync files=900, longest=0.007 s, average=0.000 s; distance=26837047 kB, estimate=26837122 kB
+1457890722.510 2016-03-13 17:38:42 UTC LOG:  checkpoint starting: xlog
+1457890900.624 2016-03-13 17:41:40 UTC LOG:  checkpoint complete: wrote 3059902 buffers (36.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=175.552 s, sync=0.030 s, total=178.113 s; sync files=899, longest=0.001 s, average=0.000 s; distance=26836983 kB, estimate=26837108 kB
+1457891006.728 2016-03-13 17:43:26 UTC LOG:  checkpoint starting: xlog
+1457891134.227 2016-03-13 17:45:34 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 1.96s/1.15u sec elapsed 31.20 sec
+1457891184.253 2016-03-13 17:46:24 UTC LOG:  checkpoint complete: wrote 3048121 buffers (36.3%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=174.834 s, sync=0.025 s, total=177.525 s; sync files=905, longest=0.002 s, average=0.000 s; distance=26836999 kB, estimate=26837097 kB
+1457891291.643 2016-03-13 17:48:11 UTC LOG:  checkpoint starting: xlog
+1457891471.917 2016-03-13 17:51:11 UTC LOG:  checkpoint complete: wrote 3035947 buffers (36.2%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=177.606 s, sync=0.017 s, total=180.273 s; sync files=902, longest=0.004 s, average=0.000 s; distance=26836894 kB, estimate=26837077 kB
+1457891580.602 2016-03-13 17:53:00 UTC LOG:  checkpoint starting: xlog
+1457891759.938 2016-03-13 17:55:59 UTC LOG:  checkpoint complete: wrote 3019172 buffers (36.0%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=176.672 s, sync=0.032 s, total=179.336 s; sync files=900, longest=0.003 s, average=0.000 s; distance=26837051 kB, estimate=26837074 kB
+1457891866.808 2016-03-13 17:57:46 UTC LOG:  checkpoint starting: xlog
+1457892052.458 2016-03-13 18:00:52 UTC LOG:  checkpoint complete: wrote 3002423 buffers (35.8%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=183.183 s, sync=0.030 s, total=185.649 s; sync files=899, longest=0.003 s, average=0.000 s; distance=26836997 kB, estimate=26837066 kB
+1457892159.295 2016-03-13 18:02:39 UTC LOG:  checkpoint starting: xlog
+1457892344.782 2016-03-13 18:05:44 UTC LOG:  checkpoint complete: wrote 2987513 buffers (35.6%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=183.064 s, sync=0.037 s, total=185.486 s; sync files=900, longest=0.007 s, average=0.000 s; distance=26837006 kB, estimate=26837060 kB
+1457892439.360 2016-03-13 18:07:19 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 1.75s/1.21u sec elapsed 15.67 sec
+1457892453.966 2016-03-13 18:07:33 UTC LOG:  checkpoint starting: xlog
+1457892641.272 2016-03-13 18:10:41 UTC LOG:  checkpoint complete: wrote 2979932 buffers (35.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=184.604 s, sync=0.066 s, total=187.306 s; sync files=907, longest=0.044 s, average=0.000 s; distance=26837012 kB, estimate=26837056 kB
+1457892749.419 2016-03-13 18:12:29 UTC LOG:  checkpoint starting: xlog
+1457892937.792 2016-03-13 18:15:37 UTC LOG:  checkpoint complete: wrote 2957631 buffers (35.3%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=185.988 s, sync=0.033 s, total=188.373 s; sync files=900, longest=0.008 s, average=0.000 s; distance=26836950 kB, estimate=26837045 kB
+1457893047.462 2016-03-13 18:17:27 UTC LOG:  checkpoint starting: xlog
+1457893238.082 2016-03-13 18:20:38 UTC LOG:  checkpoint complete: wrote 2944706 buffers (35.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=188.104 s, sync=0.030 s, total=190.620 s; sync files=900, longest=0.004 s, average=0.000 s; distance=26837085 kB, estimate=26837085 kB
+1457893347.958 2016-03-13 18:22:27 UTC LOG:  checkpoint starting: xlog
+1457893537.023 2016-03-13 18:25:37 UTC LOG:  checkpoint complete: wrote 2929772 buffers (34.9%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=186.506 s, sync=0.033 s, total=189.064 s; sync files=899, longest=0.004 s, average=0.000 s; distance=26836823 kB, estimate=26837059 kB
+1457893647.216 2016-03-13 18:27:27 UTC LOG:  checkpoint starting: xlog
+1457893838.697 2016-03-13 18:30:38 UTC LOG:  checkpoint complete: wrote 2915221 buffers (34.8%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=188.947 s, sync=0.034 s, total=191.480 s; sync files=900, longest=0.005 s, average=0.000 s; distance=26837065 kB, estimate=26837065 kB
+1457893940.654 2016-03-13 18:32:20 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 1.82s/1.18u sec elapsed 16.27 sec
+1457893949.063 2016-03-13 18:32:29 UTC LOG:  checkpoint starting: xlog
+1457894144.474 2016-03-13 18:35:44 UTC LOG:  checkpoint complete: wrote 2905824 buffers (34.6%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=192.815 s, sync=0.072 s, total=195.411 s; sync files=907, longest=0.051 s, average=0.000 s; distance=26837033 kB, estimate=26837062 kB
+1457894256.203 2016-03-13 18:37:36 UTC LOG:  checkpoint starting: xlog
+1457894449.744 2016-03-13 18:40:49 UTC LOG:  checkpoint complete: wrote 2883286 buffers (34.4%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=190.954 s, sync=0.033 s, total=193.541 s; sync files=901, longest=0.003 s, average=0.000 s; distance=26836913 kB, estimate=26837047 kB
+1457894559.687 2016-03-13 18:42:39 UTC LOG:  checkpoint starting: xlog
+1457894754.690 2016-03-13 18:45:54 UTC LOG:  checkpoint complete: wrote 2872862 buffers (34.2%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=192.370 s, sync=0.034 s, total=195.003 s; sync files=902, longest=0.008 s, average=0.000 s; distance=26837064 kB, estimate=26837064 kB
+1457894865.971 2016-03-13 18:47:45 UTC LOG:  checkpoint starting: xlog
+1457895060.601 2016-03-13 18:51:00 UTC LOG:  checkpoint complete: wrote 2859636 buffers (34.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=192.130 s, sync=0.036 s, total=194.629 s; sync files=901, longest=0.004 s, average=0.000 s; distance=26836886 kB, estimate=26837046 kB
+1457895171.320 2016-03-13 18:52:51 UTC LOG:  checkpoint starting: xlog
+1457895370.602 2016-03-13 18:56:10 UTC LOG:  checkpoint complete: wrote 2844474 buffers (33.9%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=196.854 s, sync=0.043 s, total=199.282 s; sync files=901, longest=0.009 s, average=0.000 s; distance=26837072 kB, estimate=26837072 kB
+1457895481.822 2016-03-13 18:58:01 UTC LOG:  checkpoint starting: xlog
+1457895591.105 2016-03-13 18:59:51 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 2.11s/1.30u sec elapsed 46.03 sec
+1457895681.670 2016-03-13 19:01:21 UTC LOG:  checkpoint complete: wrote 2832717 buffers (33.8%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=197.318 s, sync=0.040 s, total=199.848 s; sync files=909, longest=0.014 s, average=0.000 s; distance=26836985 kB, estimate=26837063 kB
+1457895793.282 2016-03-13 19:03:13 UTC LOG:  checkpoint starting: xlog
+1457895990.361 2016-03-13 19:06:30 UTC LOG:  checkpoint complete: wrote 2821889 buffers (33.6%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=194.163 s, sync=0.023 s, total=197.078 s; sync files=903, longest=0.004 s, average=0.000 s; distance=26836997 kB, estimate=26837057 kB
+1457896103.344 2016-03-13 19:08:23 UTC LOG:  checkpoint starting: xlog
+1457896300.095 2016-03-13 19:11:40 UTC LOG:  checkpoint complete: wrote 2802655 buffers (33.4%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=193.947 s, sync=0.029 s, total=196.751 s; sync files=903, longest=0.001 s, average=0.000 s; distance=26836893 kB, estimate=26837040 kB
+1457896413.517 2016-03-13 19:13:33 UTC LOG:  checkpoint starting: xlog
+1457896615.997 2016-03-13 19:16:55 UTC LOG:  checkpoint complete: wrote 2789378 buffers (33.3%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=199.952 s, sync=0.034 s, total=202.480 s; sync files=903, longest=0.005 s, average=0.000 s; distance=26837043 kB, estimate=26837043 kB
+1457896730.071 2016-03-13 19:18:50 UTC LOG:  checkpoint starting: xlog
+1457896929.063 2016-03-13 19:22:09 UTC LOG:  checkpoint complete: wrote 2773572 buffers (33.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=196.155 s, sync=0.025 s, total=198.992 s; sync files=902, longest=0.001 s, average=0.000 s; distance=26836971 kB, estimate=26837036 kB
+1457897044.267 2016-03-13 19:24:04 UTC LOG:  checkpoint starting: xlog
+1457897242.603 2016-03-13 19:27:22 UTC LOG:  checkpoint complete: wrote 2761535 buffers (32.9%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=195.524 s, sync=0.039 s, total=198.336 s; sync files=902, longest=0.005 s, average=0.000 s; distance=26837070 kB, estimate=26837070 kB
+1457897358.226 2016-03-13 19:29:18 UTC LOG:  checkpoint starting: xlog
+1457897368.261 2016-03-13 19:29:28 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 1.86s/1.32u sec elapsed 22.09 sec
+1457897557.420 2016-03-13 19:32:37 UTC LOG:  checkpoint complete: wrote 2751742 buffers (32.8%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=196.389 s, sync=0.033 s, total=199.195 s; sync files=913, longest=0.005 s, average=0.000 s; distance=26837307 kB, estimate=26837307 kB
+1457897672.951 2016-03-13 19:34:32 UTC LOG:  checkpoint starting: xlog
+1457897871.636 2016-03-13 19:37:51 UTC LOG:  checkpoint complete: wrote 2735982 buffers (32.6%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=195.765 s, sync=0.044 s, total=198.685 s; sync files=903, longest=0.006 s, average=0.000 s; distance=26836614 kB, estimate=26837237 kB
+1457897988.845 2016-03-13 19:39:48 UTC LOG:  checkpoint starting: xlog
+1457898188.103 2016-03-13 19:43:08 UTC LOG:  checkpoint complete: wrote 2718951 buffers (32.4%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=196.362 s, sync=0.016 s, total=199.258 s; sync files=902, longest=0.001 s, average=0.000 s; distance=26837154 kB, estimate=26837229 kB
+1457898305.072 2016-03-13 19:45:05 UTC LOG:  checkpoint starting: xlog
+1457898503.269 2016-03-13 19:48:23 UTC LOG:  checkpoint complete: wrote 2707817 buffers (32.3%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=195.720 s, sync=0.033 s, total=198.198 s; sync files=903, longest=0.004 s, average=0.000 s; distance=26837316 kB, estimate=26837316 kB
+1457898620.559 2016-03-13 19:50:20 UTC LOG:  checkpoint starting: xlog
+1457898823.188 2016-03-13 19:53:43 UTC LOG:  checkpoint complete: wrote 2692968 buffers (32.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=199.827 s, sync=0.044 s, total=202.628 s; sync files=902, longest=0.010 s, average=0.000 s; distance=26836649 kB, estimate=26837249 kB
+1457898942.147 2016-03-13 19:55:42 UTC LOG:  checkpoint starting: xlog
+1457899138.092 2016-03-13 19:58:58 UTC LOG:  checkpoint complete: wrote 2677903 buffers (31.9%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=192.624 s, sync=0.015 s, total=195.945 s; sync files=901, longest=0.002 s, average=0.000 s; distance=26837387 kB, estimate=26837387 kB
+1457899256.929 2016-03-13 20:00:56 UTC LOG:  checkpoint starting: xlog
+1457899311.290 2016-03-13 20:01:51 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 2.08s/1.42u sec elapsed 44.27 sec
+1457899458.574 2016-03-13 20:04:18 UTC LOG:  checkpoint complete: wrote 2670695 buffers (31.8%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=198.457 s, sync=0.250 s, total=201.645 s; sync files=912, longest=0.211 s, average=0.000 s; distance=26836670 kB, estimate=26837315 kB
+1457899577.610 2016-03-13 20:06:17 UTC LOG:  checkpoint starting: xlog
+1457899779.121 2016-03-13 20:09:39 UTC LOG:  checkpoint complete: wrote 2657213 buffers (31.7%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=198.693 s, sync=0.038 s, total=201.510 s; sync files=903, longest=0.008 s, average=0.000 s; distance=26837161 kB, estimate=26837300 kB
+1457899901.582 2016-03-13 20:11:41 UTC LOG:  checkpoint starting: xlog
+1457900099.278 2016-03-13 20:14:59 UTC LOG:  checkpoint complete: wrote 2643380 buffers (31.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=194.815 s, sync=0.045 s, total=197.696 s; sync files=902, longest=0.004 s, average=0.000 s; distance=26837357 kB, estimate=26837357 kB
+1457900221.395 2016-03-13 20:17:01 UTC LOG:  checkpoint starting: xlog
+1457900423.131 2016-03-13 20:20:23 UTC LOG:  checkpoint complete: wrote 2629652 buffers (31.3%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=199.089 s, sync=0.042 s, total=201.736 s; sync files=902, longest=0.007 s, average=0.000 s; distance=26836593 kB, estimate=26837280 kB
+1457900544.531 2016-03-13 20:22:24 UTC LOG:  checkpoint starting: xlog
+1457900747.141 2016-03-13 20:25:47 UTC LOG:  checkpoint complete: wrote 2617792 buffers (31.2%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=199.850 s, sync=0.036 s, total=202.610 s; sync files=903, longest=0.004 s, average=0.000 s; distance=26837277 kB, estimate=26837280 kB
+1457900858.341 2016-03-13 20:27:38 UTC LOG:  checkpoint starting: xlog
+1457901027.824 2016-03-13 20:30:27 UTC LOG:  checkpoint complete: wrote 2873314 buffers (34.3%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=166.147 s, sync=0.174 s, total=169.483 s; sync files=924, longest=0.128 s, average=0.000 s; distance=26839565 kB, estimate=26839565 kB
+1457901121.379 2016-03-13 20:32:01 UTC LOG:  checkpoint starting: xlog
+1457901251.464 2016-03-13 20:34:11 UTC LOG:  checkpoint complete: wrote 1854457 buffers (22.1%); 0 transaction log file(s) added, 2 removed, 1636 recycled; write=127.130 s, sync=0.035 s, total=130.085 s; sync files=928, longest=0.004 s, average=0.000 s; distance=26858836 kB, estimate=26858836 kB
+1457901356.159 2016-03-13 20:35:56 UTC LOG:  automatic vacuum of table "pgbench.public.pgbench_history": index scans: 0
+	pages: 0 removed, 1478031 remain, 0 skipped due to pins, 0 skipped frozen
+	tuples: 0 removed, 200922401 remain, 0 are dead but not yet removable
+	buffer usage: 1514928 hits, 1441708 misses, 1478123 dirtied
+	avg read rate: 22.572 MB/s, avg write rate: 23.142 MB/s
+	system usage: CPU 37.55s/59.45u sec elapsed 498.99 sec
+1457901357.457 2016-03-13 20:35:57 UTC LOG:  checkpoint starting: xlog
+1457901501.838 2016-03-13 20:38:21 UTC LOG:  checkpoint complete: wrote 2154197 buffers (25.7%); 0 transaction log file(s) added, 2 removed, 1637 recycled; write=141.668 s, sync=0.051 s, total=144.380 s; sync files=906, longest=0.030 s, average=0.000 s; distance=26835201 kB, estimate=26856473 kB
+1457901599.847 2016-03-13 20:39:59 UTC LOG:  checkpoint starting: xlog
+1457901735.143 2016-03-13 20:42:15 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 0.15s/0.42u sec elapsed 2.07 sec
+1457901745.234 2016-03-13 20:42:25 UTC LOG:  checkpoint complete: wrote 2189998 buffers (26.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=142.601 s, sync=0.157 s, total=145.387 s; sync files=913, longest=0.119 s, average=0.000 s; distance=26836163 kB, estimate=26854442 kB
+1457901850.678 2016-03-13 20:44:10 UTC LOG:  checkpoint starting: xlog
+1457902002.082 2016-03-13 20:46:42 UTC LOG:  checkpoint complete: wrote 2196124 buffers (26.2%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=148.847 s, sync=0.060 s, total=151.404 s; sync files=902, longest=0.032 s, average=0.000 s; distance=26837318 kB, estimate=26852729 kB
+1457902107.584 2016-03-13 20:48:27 UTC LOG:  checkpoint starting: xlog
+1457902257.981 2016-03-13 20:50:57 UTC LOG:  checkpoint complete: wrote 2188129 buffers (26.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=147.757 s, sync=0.021 s, total=150.397 s; sync files=900, longest=0.007 s, average=0.000 s; distance=26836070 kB, estimate=26851064 kB
+1457902365.933 2016-03-13 20:52:45 UTC LOG:  checkpoint starting: xlog
+1457902520.222 2016-03-13 20:55:20 UTC LOG:  checkpoint complete: wrote 2192758 buffers (26.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=151.535 s, sync=0.061 s, total=154.288 s; sync files=901, longest=0.037 s, average=0.000 s; distance=26833811 kB, estimate=26849338 kB
+1457902624.931 2016-03-13 20:57:04 UTC LOG:  checkpoint starting: xlog
+1457902783.353 2016-03-13 20:59:43 UTC LOG:  checkpoint complete: wrote 2191419 buffers (26.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=155.812 s, sync=0.026 s, total=158.422 s; sync files=902, longest=0.001 s, average=0.000 s; distance=26839271 kB, estimate=26848332 kB
+1457902889.808 2016-03-13 21:01:29 UTC LOG:  checkpoint starting: xlog
+1457903039.050 2016-03-13 21:03:59 UTC LOG:  checkpoint complete: wrote 2186942 buffers (26.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=146.493 s, sync=0.146 s, total=149.242 s; sync files=902, longest=0.113 s, average=0.000 s; distance=26837555 kB, estimate=26847254 kB
+1457903145.556 2016-03-13 21:05:45 UTC LOG:  checkpoint starting: xlog
+1457903299.960 2016-03-13 21:08:19 UTC LOG:  checkpoint complete: wrote 2182380 buffers (26.0%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=151.187 s, sync=0.313 s, total=154.404 s; sync files=901, longest=0.277 s, average=0.000 s; distance=26836296 kB, estimate=26846158 kB
+1457903404.876 2016-03-13 21:10:04 UTC LOG:  checkpoint starting: xlog
+1457903556.882 2016-03-13 21:12:36 UTC LOG:  checkpoint complete: wrote 2194065 buffers (26.2%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=148.986 s, sync=0.385 s, total=152.005 s; sync files=901, longest=0.347 s, average=0.000 s; distance=26837590 kB, estimate=26845301 kB
+1457903662.627 2016-03-13 21:14:22 UTC LOG:  checkpoint starting: xlog
+1457903813.046 2016-03-13 21:16:53 UTC LOG:  checkpoint complete: wrote 2185703 buffers (26.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=146.907 s, sync=0.035 s, total=150.418 s; sync files=901, longest=0.005 s, average=0.000 s; distance=26836443 kB, estimate=26844415 kB
+1457903913.277 2016-03-13 21:18:33 UTC LOG:  checkpoint starting: xlog
+1457904056.605 2016-03-13 21:20:56 UTC LOG:  checkpoint complete: wrote 2190134 buffers (26.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=140.958 s, sync=0.022 s, total=143.328 s; sync files=902, longest=0.005 s, average=0.000 s; distance=26837859 kB, estimate=26843760 kB
+1457904160.104 2016-03-13 21:22:40 UTC LOG:  checkpoint starting: xlog
+1457904299.892 2016-03-13 21:24:59 UTC LOG:  checkpoint complete: wrote 2178575 buffers (26.0%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=137.241 s, sync=0.029 s, total=139.787 s; sync files=901, longest=0.005 s, average=0.000 s; distance=26838024 kB, estimate=26843186 kB
+1457904404.171 2016-03-13 21:26:44 UTC LOG:  checkpoint starting: xlog
+1457904511.896 2016-03-13 21:28:31 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 1.34s/0.75u sec elapsed 29.52 sec
+1457904550.102 2016-03-13 21:29:10 UTC LOG:  checkpoint complete: wrote 2171611 buffers (25.9%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=142.183 s, sync=0.034 s, total=145.930 s; sync files=909, longest=0.002 s, average=0.000 s; distance=26836474 kB, estimate=26842515 kB
+1457904650.758 2016-03-13 21:30:50 UTC LOG:  checkpoint starting: xlog
+1457904797.421 2016-03-13 21:33:17 UTC LOG:  checkpoint complete: wrote 2203823 buffers (26.3%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=143.789 s, sync=0.178 s, total=146.663 s; sync files=905, longest=0.148 s, average=0.000 s; distance=26835897 kB, estimate=26841853 kB
+1457904899.991 2016-03-13 21:34:59 UTC LOG:  checkpoint starting: xlog
+1457905043.657 2016-03-13 21:37:23 UTC LOG:  checkpoint complete: wrote 2178874 buffers (26.0%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=140.899 s, sync=0.026 s, total=143.665 s; sync files=905, longest=0.003 s, average=0.000 s; distance=26836167 kB, estimate=26841285 kB
+1457905145.304 2016-03-13 21:39:05 UTC LOG:  checkpoint starting: xlog
+1457905290.943 2016-03-13 21:41:30 UTC LOG:  checkpoint complete: wrote 2166960 buffers (25.8%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=142.530 s, sync=0.197 s, total=145.638 s; sync files=906, longest=0.160 s, average=0.000 s; distance=26838491 kB, estimate=26841005 kB
+1457905393.150 2016-03-13 21:43:13 UTC LOG:  checkpoint starting: xlog
+1457905537.886 2016-03-13 21:45:37 UTC LOG:  checkpoint complete: wrote 2176131 buffers (25.9%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=141.888 s, sync=0.022 s, total=144.736 s; sync files=905, longest=0.009 s, average=0.000 s; distance=26837747 kB, estimate=26840679 kB
+1457905640.765 2016-03-13 21:47:20 UTC LOG:  checkpoint starting: xlog
+1457905787.123 2016-03-13 21:49:47 UTC LOG:  checkpoint complete: wrote 2174027 buffers (25.9%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=143.672 s, sync=0.088 s, total=146.358 s; sync files=902, longest=0.057 s, average=0.000 s; distance=26837003 kB, estimate=26840312 kB
+1457905890.516 2016-03-13 21:51:30 UTC LOG:  checkpoint starting: xlog
+1457906035.867 2016-03-13 21:53:55 UTC LOG:  checkpoint complete: wrote 2178181 buffers (26.0%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=142.706 s, sync=0.127 s, total=145.350 s; sync files=902, longest=0.081 s, average=0.000 s; distance=26836497 kB, estimate=26839930 kB
+1457906139.048 2016-03-13 21:55:39 UTC LOG:  checkpoint starting: xlog
+1457906287.912 2016-03-13 21:58:07 UTC LOG:  checkpoint complete: wrote 2164276 buffers (25.8%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=145.984 s, sync=0.025 s, total=148.864 s; sync files=902, longest=0.002 s, average=0.000 s; distance=26838048 kB, estimate=26839742 kB
+1457906388.418 2016-03-13 21:59:48 UTC LOG:  checkpoint starting: xlog
+1457906535.980 2016-03-13 22:02:15 UTC LOG:  checkpoint complete: wrote 2171219 buffers (25.9%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=144.705 s, sync=0.123 s, total=147.561 s; sync files=902, longest=0.096 s, average=0.000 s; distance=26835856 kB, estimate=26839353 kB
+1457906640.489 2016-03-13 22:04:00 UTC LOG:  checkpoint starting: xlog
+1457906789.934 2016-03-13 22:06:29 UTC LOG:  checkpoint complete: wrote 2174391 buffers (25.9%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=146.220 s, sync=0.164 s, total=149.445 s; sync files=902, longest=0.135 s, average=0.000 s; distance=26835642 kB, estimate=26838982 kB
+1457906891.079 2016-03-13 22:08:11 UTC LOG:  checkpoint starting: xlog
+1457907036.301 2016-03-13 22:10:36 UTC LOG:  checkpoint complete: wrote 2171620 buffers (25.9%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=142.482 s, sync=0.018 s, total=145.222 s; sync files=902, longest=0.005 s, average=0.000 s; distance=26838299 kB, estimate=26838914 kB
+1457907140.891 2016-03-13 22:12:20 UTC LOG:  checkpoint starting: xlog
+1457907286.505 2016-03-13 22:14:46 UTC LOG:  checkpoint complete: wrote 2168688 buffers (25.9%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=142.947 s, sync=0.045 s, total=145.614 s; sync files=903, longest=0.007 s, average=0.000 s; distance=26836804 kB, estimate=26838703 kB
+1457907392.198 2016-03-13 22:16:32 UTC LOG:  checkpoint starting: xlog
+1457907443.394 2016-03-13 22:17:23 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 1.32s/0.87u sec elapsed 30.36 sec
+1457907538.597 2016-03-13 22:18:58 UTC LOG:  checkpoint complete: wrote 2160088 buffers (25.8%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=143.799 s, sync=0.034 s, total=146.399 s; sync files=912, longest=0.005 s, average=0.000 s; distance=26837887 kB, estimate=26838621 kB
+1457907640.514 2016-03-13 22:20:40 UTC LOG:  checkpoint starting: xlog
+1457907789.909 2016-03-13 22:23:09 UTC LOG:  checkpoint complete: wrote 2204789 buffers (26.3%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=146.645 s, sync=0.099 s, total=149.396 s; sync files=905, longest=0.076 s, average=0.000 s; distance=26836554 kB, estimate=26838415 kB
+1457907891.763 2016-03-13 22:24:51 UTC LOG:  checkpoint starting: xlog
+1457908036.851 2016-03-13 22:27:16 UTC LOG:  checkpoint complete: wrote 2172237 buffers (25.9%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=141.913 s, sync=0.016 s, total=145.088 s; sync files=905, longest=0.003 s, average=0.000 s; distance=26837822 kB, estimate=26838355 kB
+1457908142.788 2016-03-13 22:29:02 UTC LOG:  checkpoint starting: xlog
+1457908286.499 2016-03-13 22:31:26 UTC LOG:  checkpoint complete: wrote 2167625 buffers (25.8%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=140.969 s, sync=0.040 s, total=143.711 s; sync files=905, longest=0.008 s, average=0.000 s; distance=26835584 kB, estimate=26838078 kB
+1457908391.204 2016-03-13 22:33:11 UTC LOG:  checkpoint starting: xlog
+1457908540.671 2016-03-13 22:35:40 UTC LOG:  checkpoint complete: wrote 2173073 buffers (25.9%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=146.417 s, sync=0.028 s, total=149.467 s; sync files=905, longest=0.001 s, average=0.000 s; distance=26836574 kB, estimate=26837928 kB
+1457908645.669 2016-03-13 22:37:25 UTC LOG:  checkpoint starting: xlog
+1457908793.558 2016-03-13 22:39:53 UTC LOG:  checkpoint complete: wrote 2171772 buffers (25.9%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=144.838 s, sync=0.026 s, total=147.888 s; sync files=902, longest=0.003 s, average=0.000 s; distance=26834617 kB, estimate=26837597 kB
+1457908898.629 2016-03-13 22:41:38 UTC LOG:  checkpoint starting: xlog
+1457909051.189 2016-03-13 22:44:11 UTC LOG:  checkpoint complete: wrote 2181363 buffers (26.0%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=149.630 s, sync=0.046 s, total=152.560 s; sync files=903, longest=0.022 s, average=0.000 s; distance=26840291 kB, estimate=26840291 kB
+1457909154.137 2016-03-13 22:45:54 UTC LOG:  checkpoint starting: xlog
+1457909307.915 2016-03-13 22:48:27 UTC LOG:  checkpoint complete: wrote 2169254 buffers (25.9%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=150.956 s, sync=0.028 s, total=153.777 s; sync files=902, longest=0.004 s, average=0.000 s; distance=26837535 kB, estimate=26840016 kB
+1457909414.410 2016-03-13 22:50:14 UTC LOG:  checkpoint starting: xlog
+1457909565.392 2016-03-13 22:52:45 UTC LOG:  checkpoint complete: wrote 2159274 buffers (25.7%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=148.274 s, sync=0.182 s, total=150.982 s; sync files=903, longest=0.151 s, average=0.000 s; distance=26835974 kB, estimate=26839611 kB
+1457909670.564 2016-03-13 22:54:30 UTC LOG:  checkpoint starting: xlog
+1457909819.592 2016-03-13 22:56:59 UTC LOG:  checkpoint complete: wrote 2162234 buffers (25.8%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=146.304 s, sync=0.033 s, total=149.027 s; sync files=903, longest=0.001 s, average=0.000 s; distance=26835955 kB, estimate=26839246 kB
+1457909923.342 2016-03-13 22:58:43 UTC LOG:  checkpoint starting: xlog
+1457910078.401 2016-03-13 23:01:18 UTC LOG:  checkpoint complete: wrote 2159283 buffers (25.7%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=152.397 s, sync=0.032 s, total=155.059 s; sync files=903, longest=0.003 s, average=0.000 s; distance=26837736 kB, estimate=26839095 kB
+1457910182.102 2016-03-13 23:03:02 UTC LOG:  checkpoint starting: xlog
+1457910332.950 2016-03-13 23:05:32 UTC LOG:  checkpoint complete: wrote 2170689 buffers (25.9%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=148.220 s, sync=0.030 s, total=150.847 s; sync files=902, longest=0.002 s, average=0.000 s; distance=26836962 kB, estimate=26838882 kB
+1457910438.115 2016-03-13 23:07:18 UTC LOG:  checkpoint starting: xlog
+1457910592.868 2016-03-13 23:09:52 UTC LOG:  checkpoint complete: wrote 2168694 buffers (25.9%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=152.006 s, sync=0.050 s, total=154.752 s; sync files=903, longest=0.019 s, average=0.000 s; distance=26837053 kB, estimate=26838699 kB
+1457910678.694 2016-03-13 23:11:18 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 1.28s/1.02u sec elapsed 18.63 sec
+1457910700.294 2016-03-13 23:11:40 UTC LOG:  checkpoint starting: xlog
+1457910853.976 2016-03-13 23:14:13 UTC LOG:  checkpoint complete: wrote 2183573 buffers (26.0%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=150.942 s, sync=0.019 s, total=153.682 s; sync files=915, longest=0.002 s, average=0.000 s; distance=26836671 kB, estimate=26838496 kB
+1457910960.891 2016-03-13 23:16:00 UTC LOG:  checkpoint starting: xlog
+1457911110.568 2016-03-13 23:18:30 UTC LOG:  checkpoint complete: wrote 2171518 buffers (25.9%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=146.195 s, sync=0.033 s, total=149.676 s; sync files=906, longest=0.005 s, average=0.000 s; distance=26837734 kB, estimate=26838420 kB
+1457911216.724 2016-03-13 23:20:16 UTC LOG:  checkpoint starting: xlog
+1457911364.718 2016-03-13 23:22:44 UTC LOG:  checkpoint complete: wrote 2166157 buffers (25.8%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=145.311 s, sync=0.030 s, total=147.994 s; sync files=906, longest=0.002 s, average=0.000 s; distance=26836293 kB, estimate=26838207 kB
+1457911471.228 2016-03-13 23:24:31 UTC LOG:  checkpoint starting: xlog
+1457911624.097 2016-03-13 23:27:04 UTC LOG:  checkpoint complete: wrote 2163116 buffers (25.8%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=150.310 s, sync=0.032 s, total=152.868 s; sync files=905, longest=0.001 s, average=0.000 s; distance=26832698 kB, estimate=26837656 kB
+1457911729.714 2016-03-13 23:28:49 UTC LOG:  checkpoint starting: xlog
+1457911884.779 2016-03-13 23:31:24 UTC LOG:  checkpoint complete: wrote 2165442 buffers (25.8%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=152.313 s, sync=0.026 s, total=155.065 s; sync files=907, longest=0.001 s, average=0.000 s; distance=26842115 kB, estimate=26842115 kB
+1457911991.585 2016-03-13 23:33:11 UTC LOG:  checkpoint starting: xlog
+1457912143.073 2016-03-13 23:35:43 UTC LOG:  checkpoint complete: wrote 2160351 buffers (25.8%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=148.161 s, sync=0.604 s, total=151.488 s; sync files=907, longest=0.570 s, average=0.000 s; distance=26835650 kB, estimate=26841468 kB
+1457912248.756 2016-03-13 23:37:28 UTC LOG:  checkpoint starting: xlog
+1457912401.594 2016-03-13 23:40:01 UTC LOG:  checkpoint complete: wrote 2157918 buffers (25.7%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=149.987 s, sync=0.021 s, total=152.838 s; sync files=903, longest=0.007 s, average=0.000 s; distance=26839005 kB, estimate=26841222 kB
+1457912507.817 2016-03-13 23:41:47 UTC LOG:  checkpoint starting: xlog
+1457912655.844 2016-03-13 23:44:15 UTC LOG:  checkpoint complete: wrote 2163638 buffers (25.8%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=145.657 s, sync=0.023 s, total=148.027 s; sync files=903, longest=0.004 s, average=0.000 s; distance=26836278 kB, estimate=26840727 kB
+1457912763.140 2016-03-13 23:46:03 UTC LOG:  checkpoint starting: xlog
+1457912913.840 2016-03-13 23:48:33 UTC LOG:  checkpoint complete: wrote 2159565 buffers (25.7%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=147.997 s, sync=0.029 s, total=150.699 s; sync files=905, longest=0.002 s, average=0.000 s; distance=26836666 kB, estimate=26840321 kB
+1457913018.363 2016-03-13 23:50:18 UTC LOG:  checkpoint starting: xlog
+1457913174.166 2016-03-13 23:52:54 UTC LOG:  checkpoint complete: wrote 2156237 buffers (25.7%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=152.708 s, sync=0.203 s, total=155.802 s; sync files=903, longest=0.159 s, average=0.000 s; distance=26835394 kB, estimate=26839829 kB
+1457913278.537 2016-03-13 23:54:38 UTC LOG:  checkpoint starting: xlog
+1457913433.741 2016-03-13 23:57:13 UTC LOG:  checkpoint complete: wrote 2156199 buffers (25.7%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=151.921 s, sync=0.200 s, total=155.203 s; sync files=903, longest=0.169 s, average=0.000 s; distance=26833899 kB, estimate=26839236 kB
+1457913540.090 2016-03-13 23:59:00 UTC LOG:  checkpoint starting: xlog
+1457913688.278 2016-03-14 00:01:28 UTC LOG:  checkpoint complete: wrote 2160871 buffers (25.8%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=145.410 s, sync=0.026 s, total=148.187 s; sync files=903, longest=0.002 s, average=0.000 s; distance=26841976 kB, estimate=26841976 kB
+1457913797.197 2016-03-14 00:03:17 UTC LOG:  checkpoint starting: xlog
+1457913950.034 2016-03-14 00:05:50 UTC LOG:  checkpoint complete: wrote 2156350 buffers (25.7%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=150.182 s, sync=0.033 s, total=152.837 s; sync files=904, longest=0.006 s, average=0.000 s; distance=26837342 kB, estimate=26841513 kB
+1457914052.774 2016-03-14 00:07:32 UTC LOG:  checkpoint starting: xlog
+1457914200.036 2016-03-14 00:10:00 UTC LOG:  checkpoint complete: wrote 2168309 buffers (25.8%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=144.378 s, sync=0.107 s, total=147.261 s; sync files=904, longest=0.072 s, average=0.000 s; distance=26836014 kB, estimate=26840963 kB
+1457914250.527 2016-03-14 00:10:50 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 1.43s/1.10u sec elapsed 24.67 sec
+1457914308.445 2016-03-14 00:11:48 UTC LOG:  checkpoint starting: xlog
+1457914462.222 2016-03-14 00:14:22 UTC LOG:  checkpoint complete: wrote 2185381 buffers (26.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=151.043 s, sync=0.019 s, total=153.777 s; sync files=919, longest=0.001 s, average=0.000 s; distance=26837869 kB, estimate=26840654 kB
+1457914569.272 2016-03-14 00:16:09 UTC LOG:  checkpoint starting: xlog
+1457914722.800 2016-03-14 00:18:42 UTC LOG:  checkpoint complete: wrote 2158234 buffers (25.7%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=150.933 s, sync=0.041 s, total=153.528 s; sync files=906, longest=0.005 s, average=0.000 s; distance=26834966 kB, estimate=26840085 kB
+1457914828.977 2016-03-14 00:20:28 UTC LOG:  checkpoint starting: xlog
+1457914982.706 2016-03-14 00:23:02 UTC LOG:  checkpoint complete: wrote 2155943 buffers (25.7%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=150.992 s, sync=0.027 s, total=153.728 s; sync files=903, longest=0.002 s, average=0.000 s; distance=26838536 kB, estimate=26839930 kB
+1457915087.669 2016-03-14 00:24:47 UTC LOG:  checkpoint starting: xlog
+1457915245.502 2016-03-14 00:27:25 UTC LOG:  checkpoint complete: wrote 2153673 buffers (25.7%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=155.078 s, sync=0.031 s, total=157.834 s; sync files=902, longest=0.004 s, average=0.000 s; distance=26837031 kB, estimate=26839640 kB
+1457915351.534 2016-03-14 00:29:11 UTC LOG:  checkpoint starting: xlog
+1457915505.688 2016-03-14 00:31:45 UTC LOG:  checkpoint complete: wrote 2151299 buffers (25.6%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=151.267 s, sync=0.226 s, total=154.154 s; sync files=905, longest=0.179 s, average=0.000 s; distance=26838066 kB, estimate=26839483 kB
+1457915612.342 2016-03-14 00:33:32 UTC LOG:  checkpoint starting: xlog
+1457915762.470 2016-03-14 00:36:02 UTC LOG:  checkpoint complete: wrote 2152077 buffers (25.7%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=147.490 s, sync=0.039 s, total=150.127 s; sync files=903, longest=0.005 s, average=0.000 s; distance=26836157 kB, estimate=26839150 kB
+1457915872.021 2016-03-14 00:37:52 UTC LOG:  checkpoint starting: xlog
+1457916024.802 2016-03-14 00:40:24 UTC LOG:  checkpoint complete: wrote 2149581 buffers (25.6%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=150.100 s, sync=0.018 s, total=152.780 s; sync files=902, longest=0.001 s, average=0.000 s; distance=26837017 kB, estimate=26838937 kB
+1457916130.613 2016-03-14 00:42:10 UTC LOG:  checkpoint starting: xlog
+1457916287.437 2016-03-14 00:44:47 UTC LOG:  checkpoint complete: wrote 2146759 buffers (25.6%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=154.273 s, sync=0.028 s, total=156.824 s; sync files=904, longest=0.003 s, average=0.000 s; distance=26835986 kB, estimate=26838642 kB
+1457916393.832 2016-03-14 00:46:33 UTC LOG:  checkpoint starting: xlog
+1457916544.061 2016-03-14 00:49:04 UTC LOG:  checkpoint complete: wrote 2160772 buffers (25.8%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=147.638 s, sync=0.030 s, total=150.229 s; sync files=904, longest=0.006 s, average=0.000 s; distance=26838949 kB, estimate=26838949 kB
+1457916651.060 2016-03-14 00:50:51 UTC LOG:  checkpoint starting: xlog
+1457916799.666 2016-03-14 00:53:19 UTC LOG:  checkpoint complete: wrote 2143144 buffers (25.5%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=145.963 s, sync=0.024 s, total=148.606 s; sync files=902, longest=0.004 s, average=0.000 s; distance=26835693 kB, estimate=26838624 kB
+1457916904.539 2016-03-14 00:55:04 UTC LOG:  checkpoint starting: xlog
+1457917053.900 2016-03-14 00:57:33 UTC LOG:  checkpoint complete: wrote 2149442 buffers (25.6%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=146.371 s, sync=0.096 s, total=149.361 s; sync files=902, longest=0.066 s, average=0.000 s; distance=26836402 kB, estimate=26838402 kB
+1457917159.907 2016-03-14 00:59:19 UTC LOG:  checkpoint starting: xlog
+1457917310.749 2016-03-14 01:01:50 UTC LOG:  checkpoint complete: wrote 2145570 buffers (25.6%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=147.828 s, sync=0.039 s, total=150.841 s; sync files=904, longest=0.005 s, average=0.000 s; distance=26839148 kB, estimate=26839148 kB
+1457917417.971 2016-03-14 01:03:37 UTC LOG:  checkpoint starting: xlog
+1457917561.736 2016-03-14 01:06:01 UTC LOG:  checkpoint complete: wrote 2132598 buffers (25.4%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=140.932 s, sync=0.186 s, total=143.764 s; sync files=902, longest=0.144 s, average=0.000 s; distance=26834943 kB, estimate=26838727 kB
+1457917669.563 2016-03-14 01:07:49 UTC LOG:  checkpoint starting: xlog
+1457917818.572 2016-03-14 01:10:18 UTC LOG:  checkpoint complete: wrote 2135218 buffers (25.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=146.416 s, sync=0.022 s, total=149.009 s; sync files=903, longest=0.002 s, average=0.000 s; distance=26837806 kB, estimate=26838635 kB
+1457917925.995 2016-03-14 01:12:05 UTC LOG:  checkpoint starting: xlog
+1457918074.707 2016-03-14 01:14:34 UTC LOG:  checkpoint complete: wrote 2135142 buffers (25.5%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=146.026 s, sync=0.026 s, total=148.711 s; sync files=903, longest=0.006 s, average=0.000 s; distance=26837709 kB, estimate=26838542 kB
+1457918135.265 2016-03-14 01:15:35 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 1.66s/1.01u sec elapsed 21.34 sec
+1457918183.033 2016-03-14 01:16:23 UTC LOG:  checkpoint starting: xlog
+1457918332.544 2016-03-14 01:18:52 UTC LOG:  checkpoint complete: wrote 2164885 buffers (25.8%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=146.963 s, sync=0.020 s, total=149.511 s; sync files=922, longest=0.000 s, average=0.000 s; distance=26836389 kB, estimate=26838327 kB
+1457918437.371 2016-03-14 01:20:37 UTC LOG:  checkpoint starting: xlog
+1457918583.889 2016-03-14 01:23:03 UTC LOG:  checkpoint complete: wrote 2142231 buffers (25.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=143.454 s, sync=0.043 s, total=146.518 s; sync files=906, longest=0.004 s, average=0.000 s; distance=26835678 kB, estimate=26838062 kB
+1457918690.828 2016-03-14 01:24:50 UTC LOG:  checkpoint starting: xlog
+1457918841.452 2016-03-14 01:27:21 UTC LOG:  checkpoint complete: wrote 2143130 buffers (25.5%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=147.886 s, sync=0.026 s, total=150.624 s; sync files=904, longest=0.001 s, average=0.000 s; distance=26836604 kB, estimate=26837916 kB
+1457918947.006 2016-03-14 01:29:07 UTC LOG:  checkpoint starting: xlog
+1457919094.718 2016-03-14 01:31:34 UTC LOG:  checkpoint complete: wrote 2152213 buffers (25.7%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=145.018 s, sync=0.029 s, total=147.711 s; sync files=903, longest=0.001 s, average=0.000 s; distance=26838297 kB, estimate=26838297 kB
+1457919202.130 2016-03-14 01:33:22 UTC LOG:  checkpoint starting: xlog
+1457919355.186 2016-03-14 01:35:55 UTC LOG:  checkpoint complete: wrote 2148403 buffers (25.6%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=150.318 s, sync=0.067 s, total=153.056 s; sync files=902, longest=0.052 s, average=0.000 s; distance=26835245 kB, estimate=26837992 kB
+1457919463.680 2016-03-14 01:37:43 UTC LOG:  checkpoint starting: xlog
+1457919614.532 2016-03-14 01:40:14 UTC LOG:  checkpoint complete: wrote 2145020 buffers (25.6%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=148.052 s, sync=0.019 s, total=150.851 s; sync files=903, longest=0.002 s, average=0.000 s; distance=26837101 kB, estimate=26837903 kB
+1457919721.121 2016-03-14 01:42:01 UTC LOG:  checkpoint starting: xlog
+1457919873.432 2016-03-14 01:44:33 UTC LOG:  checkpoint complete: wrote 2150999 buffers (25.6%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=149.837 s, sync=0.021 s, total=152.310 s; sync files=903, longest=0.000 s, average=0.000 s; distance=26838528 kB, estimate=26838528 kB
+1457919981.567 2016-03-14 01:46:21 UTC LOG:  checkpoint starting: xlog
+1457920134.200 2016-03-14 01:48:54 UTC LOG:  checkpoint complete: wrote 2146926 buffers (25.6%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=150.081 s, sync=0.036 s, total=152.632 s; sync files=913, longest=0.005 s, average=0.000 s; distance=26837491 kB, estimate=26838424 kB
+1457920235.034 2016-03-14 01:50:35 UTC LOG:  checkpoint starting: xlog
+1457920373.916 2016-03-14 01:52:53 UTC LOG:  checkpoint complete: wrote 1958397 buffers (23.3%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=136.239 s, sync=0.026 s, total=138.881 s; sync files=910, longest=0.002 s, average=0.000 s; distance=26844831 kB, estimate=26844831 kB
+1457920479.717 2016-03-14 01:54:39 UTC LOG:  checkpoint starting: xlog
+1457920553.816 2016-03-14 01:55:53 UTC LOG:  automatic vacuum of table "pgbench.public.pgbench_history": index scans: 0
+	pages: 0 removed, 2581530 remain, 0 skipped due to pins, 1109037 skipped frozen
+	tuples: 0 removed, 350913862 remain, 0 are dead but not yet removable
+	buffer usage: 1510785 hits, 1435114 misses, 1472538 dirtied
+	avg read rate: 24.992 MB/s, avg write rate: 25.643 MB/s
+	system usage: CPU 34.41s/57.66u sec elapsed 448.62 sec
+1457920627.111 2016-03-14 01:57:07 UTC LOG:  checkpoint complete: wrote 1888383 buffers (22.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=144.763 s, sync=0.030 s, total=147.394 s; sync files=909, longest=0.002 s, average=0.000 s; distance=26827555 kB, estimate=26843103 kB
+1457920737.445 2016-03-14 01:58:57 UTC LOG:  checkpoint starting: xlog
+1457920897.799 2016-03-14 02:01:37 UTC LOG:  checkpoint complete: wrote 2187031 buffers (26.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=157.467 s, sync=0.030 s, total=160.354 s; sync files=910, longest=0.012 s, average=0.000 s; distance=26835912 kB, estimate=26842384 kB
+1457921009.018 2016-03-14 02:03:29 UTC LOG:  checkpoint starting: xlog
+1457921164.727 2016-03-14 02:06:04 UTC LOG:  checkpoint complete: wrote 2122069 buffers (25.3%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=153.041 s, sync=0.017 s, total=155.709 s; sync files=904, longest=0.000 s, average=0.000 s; distance=26839587 kB, estimate=26842104 kB
+1457921275.091 2016-03-14 02:07:55 UTC LOG:  checkpoint starting: xlog
+1457921434.683 2016-03-14 02:10:34 UTC LOG:  checkpoint complete: wrote 2106337 buffers (25.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=156.986 s, sync=0.033 s, total=159.592 s; sync files=903, longest=0.004 s, average=0.000 s; distance=26838735 kB, estimate=26841767 kB
+1457921542.985 2016-03-14 02:12:22 UTC LOG:  checkpoint starting: xlog
+1457921694.139 2016-03-14 02:14:54 UTC LOG:  checkpoint complete: wrote 2139142 buffers (25.5%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=148.694 s, sync=0.016 s, total=151.153 s; sync files=903, longest=0.001 s, average=0.000 s; distance=26834458 kB, estimate=26841036 kB
+1457921801.886 2016-03-14 02:16:41 UTC LOG:  checkpoint starting: xlog
+1457921951.547 2016-03-14 02:19:11 UTC LOG:  checkpoint complete: wrote 2138276 buffers (25.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=147.096 s, sync=0.014 s, total=149.660 s; sync files=903, longest=0.002 s, average=0.000 s; distance=26836944 kB, estimate=26840627 kB
+1457922059.879 2016-03-14 02:20:59 UTC LOG:  checkpoint starting: xlog
+1457922212.937 2016-03-14 02:23:32 UTC LOG:  checkpoint complete: wrote 2133960 buffers (25.4%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=150.391 s, sync=0.011 s, total=153.058 s; sync files=903, longest=0.002 s, average=0.000 s; distance=26837817 kB, estimate=26840346 kB
+1457922323.407 2016-03-14 02:25:23 UTC LOG:  checkpoint starting: xlog
+1457922479.116 2016-03-14 02:27:59 UTC LOG:  checkpoint complete: wrote 2128034 buffers (25.4%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=153.151 s, sync=0.023 s, total=155.709 s; sync files=903, longest=0.000 s, average=0.000 s; distance=26836532 kB, estimate=26839965 kB
+1457922585.463 2016-03-14 02:29:45 UTC LOG:  checkpoint starting: xlog
+1457922623.526 2016-03-14 02:30:23 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 1.24s/0.78u sec elapsed 26.58 sec
+1457922743.944 2016-03-14 02:32:23 UTC LOG:  checkpoint complete: wrote 2127070 buffers (25.4%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=155.782 s, sync=0.066 s, total=158.481 s; sync files=907, longest=0.047 s, average=0.000 s; distance=26837249 kB, estimate=26839693 kB
+1457922852.602 2016-03-14 02:34:12 UTC LOG:  checkpoint starting: xlog
+1457923018.363 2016-03-14 02:36:58 UTC LOG:  checkpoint complete: wrote 2150674 buffers (25.6%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=163.139 s, sync=0.029 s, total=165.760 s; sync files=905, longest=0.002 s, average=0.000 s; distance=26835270 kB, estimate=26839251 kB
+1457923131.570 2016-03-14 02:38:51 UTC LOG:  checkpoint starting: xlog
+1457923295.338 2016-03-14 02:41:35 UTC LOG:  checkpoint complete: wrote 2127336 buffers (25.4%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=161.102 s, sync=0.013 s, total=163.767 s; sync files=904, longest=0.003 s, average=0.000 s; distance=26840686 kB, estimate=26840686 kB
+1457923407.983 2016-03-14 02:43:27 UTC LOG:  checkpoint starting: xlog
+1457923585.408 2016-03-14 02:46:25 UTC LOG:  checkpoint complete: wrote 2310509 buffers (27.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=174.698 s, sync=0.033 s, total=177.425 s; sync files=903, longest=0.005 s, average=0.000 s; distance=26833518 kB, estimate=26839969 kB
+1457923694.966 2016-03-14 02:48:14 UTC LOG:  checkpoint starting: xlog
+1457923860.350 2016-03-14 02:51:00 UTC LOG:  checkpoint complete: wrote 2321325 buffers (27.7%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=162.722 s, sync=0.026 s, total=165.384 s; sync files=903, longest=0.004 s, average=0.000 s; distance=26837500 kB, estimate=26839722 kB
+1457923971.662 2016-03-14 02:52:51 UTC LOG:  checkpoint starting: xlog
+1457924138.859 2016-03-14 02:55:38 UTC LOG:  checkpoint complete: wrote 2309322 buffers (27.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=164.499 s, sync=0.045 s, total=167.197 s; sync files=903, longest=0.009 s, average=0.000 s; distance=26837778 kB, estimate=26839528 kB
+1457924248.526 2016-03-14 02:57:28 UTC LOG:  checkpoint starting: xlog
+1457924417.607 2016-03-14 03:00:17 UTC LOG:  checkpoint complete: wrote 2323579 buffers (27.7%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=166.426 s, sync=0.031 s, total=169.080 s; sync files=903, longest=0.004 s, average=0.000 s; distance=26836260 kB, estimate=26839201 kB
+1457924525.607 2016-03-14 03:02:05 UTC LOG:  checkpoint starting: xlog
+1457924688.889 2016-03-14 03:04:48 UTC LOG:  checkpoint complete: wrote 2313658 buffers (27.6%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=160.518 s, sync=0.029 s, total=163.282 s; sync files=903, longest=0.008 s, average=0.000 s; distance=26837138 kB, estimate=26838994 kB
+1457924800.355 2016-03-14 03:06:40 UTC LOG:  checkpoint starting: xlog
+1457924961.091 2016-03-14 03:09:21 UTC LOG:  checkpoint complete: wrote 2314727 buffers (27.6%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=158.102 s, sync=0.035 s, total=160.736 s; sync files=903, longest=0.014 s, average=0.000 s; distance=26836452 kB, estimate=26838740 kB
+1457925067.335 2016-03-14 03:11:07 UTC LOG:  checkpoint starting: xlog
+1457925232.408 2016-03-14 03:13:52 UTC LOG:  checkpoint complete: wrote 2309336 buffers (27.5%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=162.402 s, sync=0.048 s, total=165.073 s; sync files=902, longest=0.008 s, average=0.000 s; distance=26837490 kB, estimate=26838615 kB
+1457925340.400 2016-03-14 03:15:40 UTC LOG:  checkpoint starting: xlog
+1457925501.758 2016-03-14 03:18:21 UTC LOG:  checkpoint complete: wrote 2308266 buffers (27.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=158.470 s, sync=0.041 s, total=161.357 s; sync files=904, longest=0.002 s, average=0.000 s; distance=26836366 kB, estimate=26838390 kB
+1457925610.402 2016-03-14 03:20:10 UTC LOG:  checkpoint starting: xlog
+1457925778.151 2016-03-14 03:22:58 UTC LOG:  checkpoint complete: wrote 2307913 buffers (27.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=165.166 s, sync=0.042 s, total=167.748 s; sync files=903, longest=0.015 s, average=0.000 s; distance=26838203 kB, estimate=26838371 kB
+1457925887.110 2016-03-14 03:24:47 UTC LOG:  checkpoint starting: xlog
+1457926049.035 2016-03-14 03:27:29 UTC LOG:  checkpoint complete: wrote 2302689 buffers (27.5%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=159.160 s, sync=0.022 s, total=161.924 s; sync files=903, longest=0.002 s, average=0.000 s; distance=26834039 kB, estimate=26837938 kB
+1457926156.337 2016-03-14 03:29:16 UTC LOG:  checkpoint starting: xlog
+1457926324.047 2016-03-14 03:32:04 UTC LOG:  checkpoint complete: wrote 2303274 buffers (27.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=164.994 s, sync=0.103 s, total=167.710 s; sync files=902, longest=0.078 s, average=0.000 s; distance=26839763 kB, estimate=26839763 kB
+1457926430.389 2016-03-14 03:33:50 UTC LOG:  checkpoint starting: xlog
+1457926594.059 2016-03-14 03:36:34 UTC LOG:  checkpoint complete: wrote 2297042 buffers (27.4%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=160.939 s, sync=0.025 s, total=163.670 s; sync files=902, longest=0.006 s, average=0.000 s; distance=26836663 kB, estimate=26839453 kB
+1457926701.512 2016-03-14 03:38:21 UTC LOG:  checkpoint starting: xlog
+1457926861.355 2016-03-14 03:41:01 UTC LOG:  checkpoint complete: wrote 2300017 buffers (27.4%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=157.208 s, sync=0.024 s, total=159.847 s; sync files=903, longest=0.000 s, average=0.000 s; distance=26836335 kB, estimate=26839142 kB
+1457926972.904 2016-03-14 03:42:52 UTC LOG:  checkpoint starting: xlog
+1457927130.247 2016-03-14 03:45:30 UTC LOG:  checkpoint complete: wrote 2295921 buffers (27.4%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=154.492 s, sync=0.028 s, total=157.342 s; sync files=903, longest=0.001 s, average=0.000 s; distance=26838276 kB, estimate=26839055 kB
+1457927192.697 2016-03-14 03:46:32 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 1.18s/0.86u sec elapsed 16.88 sec
+1457927240.526 2016-03-14 03:47:20 UTC LOG:  checkpoint starting: xlog
+1457927406.049 2016-03-14 03:50:06 UTC LOG:  checkpoint complete: wrote 2298742 buffers (27.4%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=162.779 s, sync=0.032 s, total=165.522 s; sync files=910, longest=0.002 s, average=0.000 s; distance=26836288 kB, estimate=26838778 kB
+1457927511.985 2016-03-14 03:51:51 UTC LOG:  checkpoint starting: xlog
+1457927670.404 2016-03-14 03:54:30 UTC LOG:  checkpoint complete: wrote 2226806 buffers (26.5%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=155.754 s, sync=0.015 s, total=158.419 s; sync files=904, longest=0.002 s, average=0.000 s; distance=26838507 kB, estimate=26838751 kB
+1457927777.313 2016-03-14 03:56:17 UTC LOG:  checkpoint starting: xlog
+1457927938.101 2016-03-14 03:58:58 UTC LOG:  checkpoint complete: wrote 2167028 buffers (25.8%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=157.872 s, sync=0.027 s, total=160.789 s; sync files=903, longest=0.003 s, average=0.000 s; distance=26835989 kB, estimate=26838475 kB
+1457928046.744 2016-03-14 04:00:46 UTC LOG:  checkpoint starting: xlog
+1457928201.003 2016-03-14 04:03:20 UTC LOG:  checkpoint complete: wrote 2168950 buffers (25.9%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=151.475 s, sync=0.025 s, total=154.258 s; sync files=903, longest=0.004 s, average=0.000 s; distance=26836942 kB, estimate=26838322 kB
+1457928311.062 2016-03-14 04:05:11 UTC LOG:  checkpoint starting: xlog
+1457928465.575 2016-03-14 04:07:45 UTC LOG:  checkpoint complete: wrote 2153990 buffers (25.7%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=151.546 s, sync=0.030 s, total=154.513 s; sync files=903, longest=0.006 s, average=0.000 s; distance=26836756 kB, estimate=26838165 kB
+1457928573.726 2016-03-14 04:09:33 UTC LOG:  checkpoint starting: xlog
+1457928741.726 2016-03-14 04:12:21 UTC LOG:  checkpoint complete: wrote 2154714 buffers (25.7%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=165.146 s, sync=0.023 s, total=168.000 s; sync files=903, longest=0.000 s, average=0.000 s; distance=26836105 kB, estimate=26837959 kB
+1457928850.818 2016-03-14 04:14:10 UTC LOG:  checkpoint starting: xlog
+1457929009.637 2016-03-14 04:16:49 UTC LOG:  checkpoint complete: wrote 2147820 buffers (25.6%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=155.984 s, sync=0.020 s, total=158.818 s; sync files=902, longest=0.005 s, average=0.000 s; distance=26837418 kB, estimate=26837905 kB
+1457929119.768 2016-03-14 04:18:39 UTC LOG:  checkpoint starting: xlog
+1457929274.356 2016-03-14 04:21:14 UTC LOG:  checkpoint complete: wrote 2157209 buffers (25.7%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=152.033 s, sync=0.039 s, total=154.587 s; sync files=902, longest=0.002 s, average=0.000 s; distance=26837771 kB, estimate=26837892 kB
+1457929385.534 2016-03-14 04:23:05 UTC LOG:  checkpoint starting: xlog
+1457929545.936 2016-03-14 04:25:45 UTC LOG:  checkpoint complete: wrote 2144054 buffers (25.6%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=157.423 s, sync=0.033 s, total=160.402 s; sync files=902, longest=0.003 s, average=0.000 s; distance=26836848 kB, estimate=26837787 kB
+1457929653.546 2016-03-14 04:27:33 UTC LOG:  checkpoint starting: xlog
+1457929814.329 2016-03-14 04:30:14 UTC LOG:  checkpoint complete: wrote 2150955 buffers (25.6%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=157.904 s, sync=0.042 s, total=160.782 s; sync files=904, longest=0.018 s, average=0.000 s; distance=26837320 kB, estimate=26837741 kB
+1457929921.254 2016-03-14 04:32:01 UTC LOG:  checkpoint starting: xlog
+1457930082.047 2016-03-14 04:34:42 UTC LOG:  checkpoint complete: wrote 2143224 buffers (25.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=158.088 s, sync=0.015 s, total=160.792 s; sync files=903, longest=0.003 s, average=0.000 s; distance=26837469 kB, estimate=26837713 kB
+1457930193.242 2016-03-14 04:36:33 UTC LOG:  checkpoint starting: xlog
+1457930351.618 2016-03-14 04:39:11 UTC LOG:  checkpoint complete: wrote 2142044 buffers (25.5%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=155.659 s, sync=0.016 s, total=158.375 s; sync files=902, longest=0.001 s, average=0.000 s; distance=26835911 kB, estimate=26837533 kB
+1457930463.747 2016-03-14 04:41:03 UTC LOG:  checkpoint starting: xlog
+1457930618.122 2016-03-14 04:43:38 UTC LOG:  checkpoint complete: wrote 2146817 buffers (25.6%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=151.770 s, sync=0.104 s, total=154.375 s; sync files=903, longest=0.062 s, average=0.000 s; distance=26838169 kB, estimate=26838169 kB
+1457930733.292 2016-03-14 04:45:33 UTC LOG:  checkpoint starting: xlog
+1457930895.392 2016-03-14 04:48:15 UTC LOG:  checkpoint complete: wrote 2145116 buffers (25.6%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=159.269 s, sync=0.032 s, total=162.100 s; sync files=902, longest=0.004 s, average=0.000 s; distance=26835867 kB, estimate=26837939 kB
+1457931006.882 2016-03-14 04:50:06 UTC LOG:  checkpoint starting: xlog
+1457931168.992 2016-03-14 04:52:48 UTC LOG:  checkpoint complete: wrote 2144700 buffers (25.6%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=159.053 s, sync=0.041 s, total=162.110 s; sync files=902, longest=0.011 s, average=0.000 s; distance=26836624 kB, estimate=26837807 kB
+1457931279.395 2016-03-14 04:54:39 UTC LOG:  checkpoint starting: xlog
+1457931441.712 2016-03-14 04:57:21 UTC LOG:  checkpoint complete: wrote 2141164 buffers (25.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=159.170 s, sync=0.029 s, total=162.316 s; sync files=903, longest=0.003 s, average=0.000 s; distance=26837825 kB, estimate=26837825 kB
+1457931550.094 2016-03-14 04:59:10 UTC LOG:  checkpoint starting: xlog
+1457931711.457 2016-03-14 05:01:51 UTC LOG:  checkpoint complete: wrote 2141657 buffers (25.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=158.800 s, sync=0.037 s, total=161.363 s; sync files=902, longest=0.003 s, average=0.000 s; distance=26836644 kB, estimate=26837707 kB
+1457931822.546 2016-03-14 05:03:42 UTC LOG:  checkpoint starting: xlog
+1457931984.621 2016-03-14 05:06:24 UTC LOG:  checkpoint complete: wrote 2143466 buffers (25.6%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=159.185 s, sync=0.017 s, total=162.074 s; sync files=904, longest=0.001 s, average=0.000 s; distance=26837071 kB, estimate=26837643 kB
+1457932099.477 2016-03-14 05:08:19 UTC LOG:  checkpoint starting: xlog
+1457932264.853 2016-03-14 05:11:04 UTC LOG:  checkpoint complete: wrote 2142044 buffers (25.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=162.734 s, sync=0.033 s, total=165.375 s; sync files=904, longest=0.004 s, average=0.000 s; distance=26837933 kB, estimate=26837933 kB
+1457932304.131 2016-03-14 05:11:44 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 1.32s/0.94u sec elapsed 18.36 sec
+1457932376.793 2016-03-14 05:12:56 UTC LOG:  checkpoint starting: xlog
+1457932541.837 2016-03-14 05:15:41 UTC LOG:  checkpoint complete: wrote 2167066 buffers (25.8%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=162.533 s, sync=0.049 s, total=165.044 s; sync files=911, longest=0.007 s, average=0.000 s; distance=26836792 kB, estimate=26837819 kB
+1457932650.713 2016-03-14 05:17:30 UTC LOG:  checkpoint starting: xlog
+1457932807.404 2016-03-14 05:20:07 UTC LOG:  checkpoint complete: wrote 2138069 buffers (25.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=153.895 s, sync=0.033 s, total=156.691 s; sync files=903, longest=0.001 s, average=0.000 s; distance=26834728 kB, estimate=26837510 kB
+1457932918.932 2016-03-14 05:21:58 UTC LOG:  checkpoint starting: xlog
+1457933074.998 2016-03-14 05:24:34 UTC LOG:  checkpoint complete: wrote 2138097 buffers (25.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=153.320 s, sync=0.037 s, total=156.065 s; sync files=903, longest=0.005 s, average=0.000 s; distance=26838096 kB, estimate=26838096 kB
+1457933186.990 2016-03-14 05:26:26 UTC LOG:  checkpoint starting: xlog
+1457933344.729 2016-03-14 05:29:04 UTC LOG:  checkpoint complete: wrote 2136528 buffers (25.5%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=154.892 s, sync=0.168 s, total=157.738 s; sync files=903, longest=0.134 s, average=0.000 s; distance=26837655 kB, estimate=26838052 kB
+1457933452.570 2016-03-14 05:30:52 UTC LOG:  checkpoint starting: xlog
+1457933612.367 2016-03-14 05:33:32 UTC LOG:  checkpoint complete: wrote 2132369 buffers (25.4%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=157.116 s, sync=0.019 s, total=159.796 s; sync files=903, longest=0.004 s, average=0.000 s; distance=26837165 kB, estimate=26837963 kB
+1457933724.071 2016-03-14 05:35:24 UTC LOG:  checkpoint starting: xlog
+1457933880.094 2016-03-14 05:38:00 UTC LOG:  checkpoint complete: wrote 2132191 buffers (25.4%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=153.155 s, sync=0.022 s, total=156.023 s; sync files=903, longest=0.002 s, average=0.000 s; distance=26837185 kB, estimate=26837885 kB
+1457933989.975 2016-03-14 05:39:49 UTC LOG:  checkpoint starting: xlog
+1457934153.868 2016-03-14 05:42:33 UTC LOG:  checkpoint complete: wrote 2130343 buffers (25.4%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=161.178 s, sync=0.030 s, total=163.894 s; sync files=904, longest=0.004 s, average=0.000 s; distance=26836988 kB, estimate=26837795 kB
+1457934264.207 2016-03-14 05:44:24 UTC LOG:  checkpoint starting: xlog
+1457934429.830 2016-03-14 05:47:09 UTC LOG:  checkpoint complete: wrote 2134549 buffers (25.4%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=162.980 s, sync=0.027 s, total=165.623 s; sync files=903, longest=0.004 s, average=0.000 s; distance=26836749 kB, estimate=26837691 kB
+1457934540.275 2016-03-14 05:49:00 UTC LOG:  checkpoint starting: xlog
+1457934701.082 2016-03-14 05:51:41 UTC LOG:  checkpoint complete: wrote 2134351 buffers (25.4%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=158.111 s, sync=0.030 s, total=160.807 s; sync files=902, longest=0.003 s, average=0.000 s; distance=26837363 kB, estimate=26837658 kB
+1457934812.451 2016-03-14 05:53:32 UTC LOG:  checkpoint starting: xlog
+1457934971.770 2016-03-14 05:56:11 UTC LOG:  checkpoint complete: wrote 2127358 buffers (25.4%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=156.580 s, sync=0.040 s, total=159.319 s; sync files=903, longest=0.005 s, average=0.000 s; distance=26836229 kB, estimate=26837515 kB
+1457935085.032 2016-03-14 05:58:05 UTC LOG:  checkpoint starting: xlog
+1457935249.173 2016-03-14 06:00:49 UTC LOG:  checkpoint complete: wrote 2131766 buffers (25.4%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=160.519 s, sync=0.025 s, total=164.141 s; sync files=903, longest=0.008 s, average=0.000 s; distance=26836449 kB, estimate=26837408 kB
+1457935359.817 2016-03-14 06:02:39 UTC LOG:  checkpoint starting: xlog
+1457935520.516 2016-03-14 06:05:20 UTC LOG:  checkpoint complete: wrote 2137158 buffers (25.5%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=157.896 s, sync=0.067 s, total=160.699 s; sync files=903, longest=0.028 s, average=0.000 s; distance=26838447 kB, estimate=26838447 kB
+1457935630.529 2016-03-14 06:07:10 UTC LOG:  checkpoint starting: xlog
+1457935791.867 2016-03-14 06:09:51 UTC LOG:  checkpoint complete: wrote 2131145 buffers (25.4%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=158.363 s, sync=0.025 s, total=161.338 s; sync files=903, longest=0.002 s, average=0.000 s; distance=26836470 kB, estimate=26838249 kB
+1457935902.098 2016-03-14 06:11:42 UTC LOG:  checkpoint starting: xlog
+1457936065.433 2016-03-14 06:14:25 UTC LOG:  checkpoint complete: wrote 2126176 buffers (25.3%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=160.598 s, sync=0.041 s, total=163.335 s; sync files=903, longest=0.016 s, average=0.000 s; distance=26835597 kB, estimate=26837984 kB
+1457936174.203 2016-03-14 06:16:14 UTC LOG:  checkpoint starting: xlog
+1457936333.316 2016-03-14 06:18:53 UTC LOG:  checkpoint complete: wrote 2124587 buffers (25.3%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=156.548 s, sync=0.030 s, total=159.112 s; sync files=902, longest=0.005 s, average=0.000 s; distance=26837514 kB, estimate=26837937 kB
+1457936444.317 2016-03-14 06:20:44 UTC LOG:  checkpoint starting: xlog
+1457936612.130 2016-03-14 06:23:32 UTC LOG:  checkpoint complete: wrote 2129972 buffers (25.4%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=165.102 s, sync=0.018 s, total=167.812 s; sync files=904, longest=0.003 s, average=0.000 s; distance=26836730 kB, estimate=26837816 kB
+1457936722.232 2016-03-14 06:25:22 UTC LOG:  checkpoint starting: xlog
+1457936886.448 2016-03-14 06:28:06 UTC LOG:  checkpoint complete: wrote 2126596 buffers (25.4%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=161.616 s, sync=0.027 s, total=164.216 s; sync files=905, longest=0.002 s, average=0.000 s; distance=26838517 kB, estimate=26838517 kB
+1457936995.595 2016-03-14 06:29:55 UTC LOG:  checkpoint starting: xlog
+1457937160.851 2016-03-14 06:32:40 UTC LOG:  checkpoint complete: wrote 2130550 buffers (25.4%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=162.760 s, sync=0.044 s, total=165.255 s; sync files=903, longest=0.004 s, average=0.000 s; distance=26836333 kB, estimate=26838298 kB
+1457937274.171 2016-03-14 06:34:34 UTC LOG:  checkpoint starting: xlog
+1457937433.810 2016-03-14 06:37:13 UTC LOG:  checkpoint complete: wrote 2131793 buffers (25.4%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=156.930 s, sync=0.022 s, total=159.638 s; sync files=902, longest=0.003 s, average=0.000 s; distance=26836701 kB, estimate=26838139 kB
+1457937545.370 2016-03-14 06:39:05 UTC LOG:  checkpoint starting: xlog
+1457937714.802 2016-03-14 06:41:54 UTC LOG:  checkpoint complete: wrote 2124316 buffers (25.3%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=166.889 s, sync=0.033 s, total=169.432 s; sync files=903, longest=0.003 s, average=0.000 s; distance=26835946 kB, estimate=26837919 kB
+1457937826.630 2016-03-14 06:43:46 UTC LOG:  checkpoint starting: xlog
+1457937989.789 2016-03-14 06:46:29 UTC LOG:  checkpoint complete: wrote 2124838 buffers (25.3%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=160.309 s, sync=0.044 s, total=163.158 s; sync files=904, longest=0.008 s, average=0.000 s; distance=26836741 kB, estimate=26837802 kB
+1457937994.997 2016-03-14 06:46:34 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 1.53s/1.04u sec elapsed 27.31 sec
+1457938103.134 2016-03-14 06:48:23 UTC LOG:  checkpoint starting: xlog
+1457938264.623 2016-03-14 06:51:04 UTC LOG:  checkpoint complete: wrote 2143345 buffers (25.6%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=158.294 s, sync=0.016 s, total=161.488 s; sync files=914, longest=0.002 s, average=0.000 s; distance=26839102 kB, estimate=26839102 kB
+1457938374.626 2016-03-14 06:52:54 UTC LOG:  checkpoint starting: xlog
+1457938539.721 2016-03-14 06:55:39 UTC LOG:  checkpoint complete: wrote 2115301 buffers (25.2%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=162.167 s, sync=0.118 s, total=165.095 s; sync files=903, longest=0.084 s, average=0.000 s; distance=26834465 kB, estimate=26838639 kB
+1457938649.406 2016-03-14 06:57:29 UTC LOG:  checkpoint starting: xlog
+1457938816.395 2016-03-14 07:00:16 UTC LOG:  checkpoint complete: wrote 2117664 buffers (25.2%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=164.240 s, sync=0.039 s, total=166.989 s; sync files=903, longest=0.006 s, average=0.000 s; distance=26840402 kB, estimate=26840402 kB
+1457938922.037 2016-03-14 07:02:02 UTC LOG:  checkpoint starting: xlog
+1457939075.460 2016-03-14 07:04:35 UTC LOG:  checkpoint complete: wrote 2068208 buffers (24.7%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=150.678 s, sync=0.043 s, total=153.422 s; sync files=916, longest=0.009 s, average=0.000 s; distance=26837893 kB, estimate=26840151 kB
+1457939177.275 2016-03-14 07:06:17 UTC LOG:  checkpoint starting: xlog
+1457939337.654 2016-03-14 07:08:57 UTC LOG:  checkpoint complete: wrote 1814808 buffers (21.6%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=157.487 s, sync=0.046 s, total=160.378 s; sync files=911, longest=0.017 s, average=0.000 s; distance=26836927 kB, estimate=26839829 kB
+1457939345.547 2016-03-14 07:09:05 UTC LOG:  automatic vacuum of table "pgbench.public.pgbench_history": index scans: 0
+	pages: 0 removed, 3685131 remain, 0 skipped due to pins, 2212236 skipped frozen
+	tuples: 0 removed, 500951772 remain, 0 are dead but not yet removable
+	buffer usage: 1511718 hits, 1435344 misses, 1472902 dirtied
+	avg read rate: 23.479 MB/s, avg write rate: 24.094 MB/s
+	system usage: CPU 35.96s/58.17u sec elapsed 477.59 sec
+1457939447.551 2016-03-14 07:10:47 UTC LOG:  checkpoint starting: xlog
+1457939602.500 2016-03-14 07:13:22 UTC LOG:  checkpoint complete: wrote 2136395 buffers (25.5%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=152.356 s, sync=0.041 s, total=154.949 s; sync files=909, longest=0.004 s, average=0.000 s; distance=26835502 kB, estimate=26839396 kB
+1457939712.124 2016-03-14 07:15:12 UTC LOG:  checkpoint starting: xlog
+1457939874.404 2016-03-14 07:17:54 UTC LOG:  checkpoint complete: wrote 2114780 buffers (25.2%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=159.461 s, sync=0.013 s, total=162.279 s; sync files=902, longest=0.002 s, average=0.000 s; distance=26836821 kB, estimate=26839139 kB
+1457939983.085 2016-03-14 07:19:43 UTC LOG:  checkpoint starting: xlog
+1457940150.198 2016-03-14 07:22:30 UTC LOG:  checkpoint complete: wrote 2112117 buffers (25.2%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=164.484 s, sync=0.030 s, total=167.112 s; sync files=902, longest=0.004 s, average=0.000 s; distance=26837964 kB, estimate=26839021 kB
+1457940260.694 2016-03-14 07:24:20 UTC LOG:  checkpoint starting: xlog
+1457940426.161 2016-03-14 07:27:06 UTC LOG:  checkpoint complete: wrote 2111379 buffers (25.2%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=163.003 s, sync=0.327 s, total=165.466 s; sync files=902, longest=0.293 s, average=0.000 s; distance=26836869 kB, estimate=26838806 kB
+1457940539.244 2016-03-14 07:28:59 UTC LOG:  checkpoint starting: xlog
+1457940705.474 2016-03-14 07:31:45 UTC LOG:  checkpoint complete: wrote 2108562 buffers (25.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=163.590 s, sync=0.033 s, total=166.230 s; sync files=904, longest=0.006 s, average=0.000 s; distance=26834496 kB, estimate=26838375 kB
+1457940817.958 2016-03-14 07:33:37 UTC LOG:  checkpoint starting: xlog
+1457940990.506 2016-03-14 07:36:30 UTC LOG:  checkpoint complete: wrote 2117680 buffers (25.2%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=170.049 s, sync=0.024 s, total=172.548 s; sync files=904, longest=0.002 s, average=0.000 s; distance=26838663 kB, estimate=26838663 kB
+1457941103.316 2016-03-14 07:38:23 UTC LOG:  checkpoint starting: xlog
+1457941271.447 2016-03-14 07:41:11 UTC LOG:  checkpoint complete: wrote 2119459 buffers (25.3%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=165.157 s, sync=0.383 s, total=168.131 s; sync files=904, longest=0.342 s, average=0.000 s; distance=26837832 kB, estimate=26838579 kB
+1457941383.551 2016-03-14 07:43:03 UTC LOG:  checkpoint starting: xlog
+1457941544.717 2016-03-14 07:45:44 UTC LOG:  checkpoint complete: wrote 2111722 buffers (25.2%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=158.397 s, sync=0.036 s, total=161.166 s; sync files=903, longest=0.005 s, average=0.000 s; distance=26835370 kB, estimate=26838259 kB
+1457941657.893 2016-03-14 07:47:37 UTC LOG:  checkpoint starting: xlog
+1457941820.578 2016-03-14 07:50:20 UTC LOG:  checkpoint complete: wrote 2108078 buffers (25.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=159.996 s, sync=0.020 s, total=162.684 s; sync files=902, longest=0.004 s, average=0.000 s; distance=26836470 kB, estimate=26838080 kB
+1457941928.790 2016-03-14 07:52:08 UTC LOG:  checkpoint starting: xlog
+1457942093.400 2016-03-14 07:54:53 UTC LOG:  checkpoint complete: wrote 2110540 buffers (25.2%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=161.838 s, sync=0.032 s, total=164.610 s; sync files=902, longest=0.004 s, average=0.000 s; distance=26838087 kB, estimate=26838087 kB
+1457942200.921 2016-03-14 07:56:40 UTC LOG:  checkpoint starting: xlog
+1457942356.599 2016-03-14 07:59:16 UTC LOG:  checkpoint complete: wrote 2115880 buffers (25.2%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=152.847 s, sync=0.032 s, total=155.677 s; sync files=903, longest=0.010 s, average=0.000 s; distance=26837059 kB, estimate=26837984 kB
+1457942469.119 2016-03-14 08:01:09 UTC LOG:  checkpoint starting: xlog
+1457942623.825 2016-03-14 08:03:43 UTC LOG:  checkpoint complete: wrote 2107127 buffers (25.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=151.736 s, sync=0.030 s, total=154.705 s; sync files=902, longest=0.000 s, average=0.000 s; distance=26836189 kB, estimate=26837805 kB
+1457942733.120 2016-03-14 08:05:33 UTC LOG:  checkpoint starting: xlog
+1457942896.051 2016-03-14 08:08:16 UTC LOG:  checkpoint complete: wrote 2112089 buffers (25.2%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=160.261 s, sync=0.015 s, total=162.930 s; sync files=902, longest=0.004 s, average=0.000 s; distance=26838714 kB, estimate=26838714 kB
+1457943004.982 2016-03-14 08:10:04 UTC LOG:  checkpoint starting: xlog
+1457943165.790 2016-03-14 08:12:45 UTC LOG:  checkpoint complete: wrote 2112693 buffers (25.2%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=157.740 s, sync=0.068 s, total=160.807 s; sync files=902, longest=0.042 s, average=0.000 s; distance=26835162 kB, estimate=26838359 kB
+1457943276.901 2016-03-14 08:14:36 UTC LOG:  checkpoint starting: xlog
+1457943441.303 2016-03-14 08:17:21 UTC LOG:  checkpoint complete: wrote 2113238 buffers (25.2%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=161.449 s, sync=0.382 s, total=164.402 s; sync files=904, longest=0.347 s, average=0.000 s; distance=26838318 kB, estimate=26838354 kB
+1457943551.980 2016-03-14 08:19:11 UTC LOG:  checkpoint starting: xlog
+1457943714.872 2016-03-14 08:21:54 UTC LOG:  checkpoint complete: wrote 2105479 buffers (25.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=160.093 s, sync=0.273 s, total=162.892 s; sync files=903, longest=0.224 s, average=0.000 s; distance=26835965 kB, estimate=26838116 kB
+1457943830.034 2016-03-14 08:23:50 UTC LOG:  checkpoint starting: xlog
+1457943998.994 2016-03-14 08:26:38 UTC LOG:  checkpoint complete: wrote 2112988 buffers (25.2%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=166.297 s, sync=0.021 s, total=168.959 s; sync files=903, longest=0.005 s, average=0.000 s; distance=26837819 kB, estimate=26838086 kB
+1457944114.280 2016-03-14 08:28:34 UTC LOG:  checkpoint starting: xlog
+1457944279.192 2016-03-14 08:31:19 UTC LOG:  checkpoint complete: wrote 2117424 buffers (25.2%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=162.263 s, sync=0.025 s, total=164.911 s; sync files=904, longest=0.001 s, average=0.000 s; distance=26835072 kB, estimate=26837784 kB
+1457944390.647 2016-03-14 08:33:10 UTC LOG:  checkpoint starting: xlog
+1457944423.928 2016-03-14 08:33:43 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 1.23s/0.91u sec elapsed 29.63 sec
+1457944557.041 2016-03-14 08:35:57 UTC LOG:  checkpoint complete: wrote 2106373 buffers (25.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=163.651 s, sync=0.025 s, total=166.394 s; sync files=907, longest=0.003 s, average=0.000 s; distance=26837885 kB, estimate=26837885 kB
+1457944667.195 2016-03-14 08:37:47 UTC LOG:  checkpoint starting: xlog
+1457944827.662 2016-03-14 08:40:27 UTC LOG:  checkpoint complete: wrote 2129471 buffers (25.4%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=157.875 s, sync=0.040 s, total=160.466 s; sync files=906, longest=0.007 s, average=0.000 s; distance=26838272 kB, estimate=26838272 kB
+1457944941.025 2016-03-14 08:42:21 UTC LOG:  checkpoint starting: xlog
+1457945100.937 2016-03-14 08:45:00 UTC LOG:  checkpoint complete: wrote 2115143 buffers (25.2%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=157.223 s, sync=0.030 s, total=159.912 s; sync files=905, longest=0.002 s, average=0.000 s; distance=26837518 kB, estimate=26838196 kB
+1457945211.584 2016-03-14 08:46:51 UTC LOG:  checkpoint starting: xlog
+1457945372.159 2016-03-14 08:49:32 UTC LOG:  checkpoint complete: wrote 2111470 buffers (25.2%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=157.724 s, sync=0.026 s, total=160.575 s; sync files=902, longest=0.000 s, average=0.000 s; distance=26835915 kB, estimate=26837968 kB
+1457945481.737 2016-03-14 08:51:21 UTC LOG:  checkpoint starting: xlog
+1457945646.178 2016-03-14 08:54:06 UTC LOG:  checkpoint complete: wrote 2115019 buffers (25.2%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=161.824 s, sync=0.022 s, total=164.440 s; sync files=904, longest=0.008 s, average=0.000 s; distance=26837561 kB, estimate=26837928 kB
+1457945754.452 2016-03-14 08:55:54 UTC LOG:  checkpoint starting: xlog
+1457945910.798 2016-03-14 08:58:30 UTC LOG:  checkpoint complete: wrote 2108838 buffers (25.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=153.721 s, sync=0.019 s, total=156.345 s; sync files=903, longest=0.003 s, average=0.000 s; distance=26836062 kB, estimate=26837741 kB
+1457946022.549 2016-03-14 09:00:22 UTC LOG:  checkpoint starting: xlog
+1457946174.748 2016-03-14 09:02:54 UTC LOG:  checkpoint complete: wrote 2110871 buffers (25.2%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=149.347 s, sync=0.037 s, total=152.198 s; sync files=902, longest=0.005 s, average=0.000 s; distance=26837461 kB, estimate=26837713 kB
+1457946289.383 2016-03-14 09:04:49 UTC LOG:  checkpoint starting: xlog
+1457946446.627 2016-03-14 09:07:26 UTC LOG:  checkpoint complete: wrote 2109968 buffers (25.2%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=154.489 s, sync=0.034 s, total=157.243 s; sync files=902, longest=0.004 s, average=0.000 s; distance=26836843 kB, estimate=26837626 kB
+1457946556.385 2016-03-14 09:09:16 UTC LOG:  checkpoint starting: xlog
+1457946714.256 2016-03-14 09:11:54 UTC LOG:  checkpoint complete: wrote 2106647 buffers (25.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=155.073 s, sync=0.023 s, total=157.871 s; sync files=903, longest=0.001 s, average=0.000 s; distance=26836694 kB, estimate=26837533 kB
+1457946823.798 2016-03-14 09:13:43 UTC LOG:  checkpoint starting: xlog
+1457946975.647 2016-03-14 09:16:15 UTC LOG:  checkpoint complete: wrote 2107341 buffers (25.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=149.157 s, sync=0.018 s, total=151.849 s; sync files=903, longest=0.005 s, average=0.000 s; distance=26837278 kB, estimate=26837507 kB
+1457947085.464 2016-03-14 09:18:05 UTC LOG:  checkpoint starting: xlog
+1457947236.910 2016-03-14 09:20:36 UTC LOG:  checkpoint complete: wrote 2108136 buffers (25.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=148.473 s, sync=0.035 s, total=151.446 s; sync files=903, longest=0.005 s, average=0.000 s; distance=26835741 kB, estimate=26837331 kB
+1457947346.693 2016-03-14 09:22:26 UTC LOG:  checkpoint starting: xlog
+1457947505.863 2016-03-14 09:25:05 UTC LOG:  checkpoint complete: wrote 2108611 buffers (25.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=156.468 s, sync=0.035 s, total=159.170 s; sync files=902, longest=0.016 s, average=0.000 s; distance=26836195 kB, estimate=26837217 kB
+1457947614.556 2016-03-14 09:26:54 UTC LOG:  checkpoint starting: xlog
+1457947771.631 2016-03-14 09:29:31 UTC LOG:  checkpoint complete: wrote 2108648 buffers (25.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=154.202 s, sync=0.023 s, total=157.074 s; sync files=904, longest=0.005 s, average=0.000 s; distance=26838689 kB, estimate=26838689 kB
+1457947880.760 2016-03-14 09:31:20 UTC LOG:  checkpoint starting: xlog
+1457948039.554 2016-03-14 09:33:59 UTC LOG:  checkpoint complete: wrote 2108566 buffers (25.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=156.170 s, sync=0.035 s, total=158.793 s; sync files=904, longest=0.002 s, average=0.000 s; distance=26836927 kB, estimate=26838513 kB
+1457948149.687 2016-03-14 09:35:49 UTC LOG:  checkpoint starting: xlog
+1457948303.634 2016-03-14 09:38:23 UTC LOG:  checkpoint complete: wrote 2105339 buffers (25.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=151.346 s, sync=0.021 s, total=153.946 s; sync files=903, longest=0.000 s, average=0.000 s; distance=26836636 kB, estimate=26838325 kB
+1457948413.196 2016-03-14 09:40:13 UTC LOG:  checkpoint starting: xlog
+1457948581.477 2016-03-14 09:43:01 UTC LOG:  checkpoint complete: wrote 2102102 buffers (25.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=165.453 s, sync=0.022 s, total=168.281 s; sync files=902, longest=0.003 s, average=0.000 s; distance=26836854 kB, estimate=26838178 kB
+1457948586.320 2016-03-14 09:43:06 UTC LOG:  automatic vacuum of table "pgbench.public.pgbench_accounts": index scans: 1
+	pages: 0 removed, 99779659 remain, 0 skipped due to pins, 0 skipped frozen
+	tuples: 40121977 removed, 6045185004 remain, 52294043 are dead but not yet removable
+	buffer usage: 111816709 hits, 193943141 misses, 202964328 dirtied
+	avg read rate: 31.726 MB/s, avg write rate: 33.202 MB/s
+	system usage: CPU 7793.70s/7245.74u sec elapsed 47758.50 sec
+1457948694.257 2016-03-14 09:44:54 UTC LOG:  checkpoint starting: xlog
+1457948860.464 2016-03-14 09:47:40 UTC LOG:  checkpoint complete: wrote 2230876 buffers (26.6%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=163.463 s, sync=0.060 s, total=166.206 s; sync files=905, longest=0.027 s, average=0.000 s; distance=26836118 kB, estimate=26837972 kB
+1457948968.649 2016-03-14 09:49:28 UTC LOG:  checkpoint starting: xlog
+1457949123.222 2016-03-14 09:52:03 UTC LOG:  checkpoint complete: wrote 2114400 buffers (25.2%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=151.629 s, sync=0.092 s, total=154.573 s; sync files=902, longest=0.059 s, average=0.000 s; distance=26838653 kB, estimate=26838653 kB
+1457949234.539 2016-03-14 09:53:54 UTC LOG:  checkpoint starting: xlog
+1457949393.688 2016-03-14 09:56:33 UTC LOG:  checkpoint complete: wrote 2108542 buffers (25.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=156.089 s, sync=0.034 s, total=159.148 s; sync files=903, longest=0.025 s, average=0.000 s; distance=26836480 kB, estimate=26838436 kB
+1457949500.749 2016-03-14 09:58:20 UTC LOG:  checkpoint starting: xlog
+1457949653.909 2016-03-14 10:00:53 UTC LOG:  checkpoint complete: wrote 2113867 buffers (25.2%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=150.328 s, sync=0.027 s, total=153.160 s; sync files=902, longest=0.000 s, average=0.000 s; distance=26837596 kB, estimate=26838352 kB
+1457949762.409 2016-03-14 10:02:42 UTC LOG:  checkpoint starting: xlog
+1457949918.031 2016-03-14 10:05:18 UTC LOG:  checkpoint complete: wrote 2116618 buffers (25.2%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=152.893 s, sync=0.065 s, total=155.621 s; sync files=903, longest=0.043 s, average=0.000 s; distance=26836492 kB, estimate=26838166 kB
+1457950027.919 2016-03-14 10:07:07 UTC LOG:  checkpoint starting: xlog
+1457950182.836 2016-03-14 10:09:42 UTC LOG:  checkpoint complete: wrote 2117210 buffers (25.2%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=152.330 s, sync=0.026 s, total=154.917 s; sync files=903, longest=0.003 s, average=0.000 s; distance=26837886 kB, estimate=26838138 kB
+1457950289.452 2016-03-14 10:11:29 UTC LOG:  checkpoint starting: xlog
+1457950450.128 2016-03-14 10:14:10 UTC LOG:  checkpoint complete: wrote 2106740 buffers (25.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=157.997 s, sync=0.023 s, total=160.675 s; sync files=903, longest=0.002 s, average=0.000 s; distance=26836673 kB, estimate=26837991 kB
+1457950560.387 2016-03-14 10:16:00 UTC LOG:  checkpoint starting: xlog
+1457950721.374 2016-03-14 10:18:41 UTC LOG:  checkpoint complete: wrote 2108602 buffers (25.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=158.238 s, sync=0.087 s, total=160.986 s; sync files=903, longest=0.043 s, average=0.000 s; distance=26836082 kB, estimate=26837801 kB
+1457950830.981 2016-03-14 10:20:30 UTC LOG:  checkpoint starting: xlog
+1457950989.892 2016-03-14 10:23:09 UTC LOG:  checkpoint complete: wrote 2111032 buffers (25.2%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=156.086 s, sync=0.012 s, total=158.910 s; sync files=903, longest=0.003 s, average=0.000 s; distance=26837174 kB, estimate=26837738 kB
+1457951100.876 2016-03-14 10:25:00 UTC LOG:  checkpoint starting: xlog
+1457951259.664 2016-03-14 10:27:39 UTC LOG:  checkpoint complete: wrote 2106606 buffers (25.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=156.066 s, sync=0.182 s, total=158.787 s; sync files=903, longest=0.141 s, average=0.000 s; distance=26836607 kB, estimate=26837625 kB
+1457951268.739 2016-03-14 10:27:48 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 1.36s/0.86u sec elapsed 38.57 sec
+1457951374.688 2016-03-14 10:29:34 UTC LOG:  checkpoint starting: xlog
+1457951538.374 2016-03-14 10:32:18 UTC LOG:  checkpoint complete: wrote 2129922 buffers (25.4%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=160.907 s, sync=0.114 s, total=163.686 s; sync files=912, longest=0.083 s, average=0.000 s; distance=26838091 kB, estimate=26838091 kB
+1457951654.624 2016-03-14 10:34:14 UTC LOG:  checkpoint starting: xlog
+1457951810.120 2016-03-14 10:36:50 UTC LOG:  checkpoint complete: wrote 2108817 buffers (25.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=152.719 s, sync=0.029 s, total=155.496 s; sync files=906, longest=0.003 s, average=0.000 s; distance=26835223 kB, estimate=26837804 kB
+1457951919.679 2016-03-14 10:38:39 UTC LOG:  checkpoint starting: xlog
+1457952075.765 2016-03-14 10:41:15 UTC LOG:  checkpoint complete: wrote 2114286 buffers (25.2%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=153.440 s, sync=0.198 s, total=156.086 s; sync files=905, longest=0.155 s, average=0.000 s; distance=26839560 kB, estimate=26839560 kB
+1457952185.006 2016-03-14 10:43:05 UTC LOG:  checkpoint starting: xlog
+1457952343.686 2016-03-14 10:45:43 UTC LOG:  checkpoint complete: wrote 2104915 buffers (25.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=156.224 s, sync=0.098 s, total=158.680 s; sync files=905, longest=0.052 s, average=0.000 s; distance=26836108 kB, estimate=26839215 kB
+1457952454.230 2016-03-14 10:47:34 UTC LOG:  checkpoint starting: xlog
+1457952613.686 2016-03-14 10:50:13 UTC LOG:  checkpoint complete: wrote 2109402 buffers (25.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=156.727 s, sync=0.038 s, total=159.455 s; sync files=902, longest=0.005 s, average=0.000 s; distance=26836306 kB, estimate=26838924 kB
+1457952723.588 2016-03-14 10:52:03 UTC LOG:  checkpoint starting: xlog
+1457952877.696 2016-03-14 10:54:37 UTC LOG:  checkpoint complete: wrote 2106014 buffers (25.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=151.333 s, sync=0.023 s, total=154.107 s; sync files=902, longest=0.005 s, average=0.000 s; distance=26837682 kB, estimate=26838800 kB
+1457952989.018 2016-03-14 10:56:29 UTC LOG:  checkpoint starting: xlog
+1457953146.914 2016-03-14 10:59:06 UTC LOG:  checkpoint complete: wrote 2105359 buffers (25.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=155.104 s, sync=0.022 s, total=157.896 s; sync files=903, longest=0.004 s, average=0.000 s; distance=26836836 kB, estimate=26838603 kB
+1457953254.722 2016-03-14 11:00:54 UTC LOG:  checkpoint starting: xlog
+1457953415.553 2016-03-14 11:03:35 UTC LOG:  checkpoint complete: wrote 2108742 buffers (25.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=157.837 s, sync=0.026 s, total=160.830 s; sync files=903, longest=0.002 s, average=0.000 s; distance=26837894 kB, estimate=26838532 kB
+1457953523.627 2016-03-14 11:05:23 UTC LOG:  checkpoint starting: xlog
+1457953678.765 2016-03-14 11:07:58 UTC LOG:  checkpoint complete: wrote 2110088 buffers (25.2%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=152.763 s, sync=0.020 s, total=155.137 s; sync files=902, longest=0.008 s, average=0.000 s; distance=26836087 kB, estimate=26838288 kB
+1457953788.751 2016-03-14 11:09:48 UTC LOG:  checkpoint starting: xlog
+1457953951.193 2016-03-14 11:12:31 UTC LOG:  checkpoint complete: wrote 2105788 buffers (25.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=159.480 s, sync=0.031 s, total=162.441 s; sync files=902, longest=0.005 s, average=0.000 s; distance=26837356 kB, estimate=26838195 kB
+1457954061.047 2016-03-14 11:14:21 UTC LOG:  checkpoint starting: xlog
+1457954211.587 2016-03-14 11:16:51 UTC LOG:  checkpoint complete: wrote 2110061 buffers (25.2%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=147.465 s, sync=0.108 s, total=150.540 s; sync files=906, longest=0.075 s, average=0.000 s; distance=26836322 kB, estimate=26838007 kB
+1457954323.021 2016-03-14 11:18:43 UTC LOG:  checkpoint starting: xlog
+1457954478.661 2016-03-14 11:21:18 UTC LOG:  checkpoint complete: wrote 2104451 buffers (25.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=152.822 s, sync=0.033 s, total=155.640 s; sync files=903, longest=0.002 s, average=0.000 s; distance=26833839 kB, estimate=26837591 kB
+1457954589.585 2016-03-14 11:23:09 UTC LOG:  checkpoint starting: xlog
+1457954750.638 2016-03-14 11:25:50 UTC LOG:  checkpoint complete: wrote 2108294 buffers (25.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=157.928 s, sync=0.034 s, total=161.052 s; sync files=903, longest=0.008 s, average=0.000 s; distance=26840356 kB, estimate=26840356 kB
+1457954858.973 2016-03-14 11:27:38 UTC LOG:  checkpoint starting: xlog
+1457955019.926 2016-03-14 11:30:19 UTC LOG:  checkpoint complete: wrote 2105158 buffers (25.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=158.262 s, sync=0.047 s, total=160.952 s; sync files=903, longest=0.002 s, average=0.000 s; distance=26837858 kB, estimate=26840106 kB
+1457955131.520 2016-03-14 11:32:11 UTC LOG:  checkpoint starting: xlog
+1457955283.572 2016-03-14 11:34:43 UTC LOG:  checkpoint complete: wrote 2107460 buffers (25.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=149.456 s, sync=0.034 s, total=152.051 s; sync files=902, longest=0.001 s, average=0.000 s; distance=26836315 kB, estimate=26839727 kB
+1457955396.260 2016-03-14 11:36:36 UTC LOG:  checkpoint starting: xlog
+1457955550.673 2016-03-14 11:39:10 UTC LOG:  checkpoint complete: wrote 2103900 buffers (25.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=151.606 s, sync=0.037 s, total=154.412 s; sync files=903, longest=0.004 s, average=0.000 s; distance=26837036 kB, estimate=26839458 kB
+1457955659.867 2016-03-14 11:40:59 UTC LOG:  checkpoint starting: xlog
+1457955821.318 2016-03-14 11:43:41 UTC LOG:  checkpoint complete: wrote 2103154 buffers (25.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=158.727 s, sync=0.034 s, total=161.451 s; sync files=902, longest=0.001 s, average=0.000 s; distance=26834437 kB, estimate=26838956 kB
+1457955929.937 2016-03-14 11:45:29 UTC LOG:  checkpoint starting: xlog
+1457956088.045 2016-03-14 11:48:08 UTC LOG:  checkpoint complete: wrote 2108406 buffers (25.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=155.549 s, sync=0.031 s, total=158.107 s; sync files=902, longest=0.009 s, average=0.000 s; distance=26838947 kB, estimate=26838955 kB
+1457956199.618 2016-03-14 11:49:59 UTC LOG:  checkpoint starting: xlog
+1457956360.158 2016-03-14 11:52:40 UTC LOG:  checkpoint complete: wrote 2109692 buffers (25.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=157.877 s, sync=0.100 s, total=160.540 s; sync files=902, longest=0.075 s, average=0.000 s; distance=26838501 kB, estimate=26838909 kB
+1457956470.389 2016-03-14 11:54:30 UTC LOG:  checkpoint starting: xlog
+1457956621.950 2016-03-14 11:57:01 UTC LOG:  checkpoint complete: wrote 2108246 buffers (25.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=148.729 s, sync=0.037 s, total=151.561 s; sync files=903, longest=0.003 s, average=0.000 s; distance=26835604 kB, estimate=26838579 kB
+1457956734.375 2016-03-14 11:58:54 UTC LOG:  checkpoint starting: xlog
+1457956889.426 2016-03-14 12:01:29 UTC LOG:  checkpoint complete: wrote 2104034 buffers (25.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=152.419 s, sync=0.045 s, total=155.051 s; sync files=903, longest=0.011 s, average=0.000 s; distance=26834911 kB, estimate=26838212 kB
+1457956999.708 2016-03-14 12:03:19 UTC LOG:  checkpoint starting: xlog
+1457957160.424 2016-03-14 12:06:00 UTC LOG:  checkpoint complete: wrote 2102589 buffers (25.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=157.144 s, sync=0.274 s, total=160.715 s; sync files=902, longest=0.238 s, average=0.000 s; distance=26837474 kB, estimate=26838138 kB
+1457957269.110 2016-03-14 12:07:49 UTC LOG:  checkpoint starting: xlog
+1457957426.130 2016-03-14 12:10:26 UTC LOG:  checkpoint complete: wrote 2104865 buffers (25.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=153.530 s, sync=0.020 s, total=157.020 s; sync files=902, longest=0.002 s, average=0.000 s; distance=26838433 kB, estimate=26838433 kB
+1457957534.737 2016-03-14 12:12:14 UTC LOG:  checkpoint starting: xlog
+1457957695.798 2016-03-14 12:14:55 UTC LOG:  checkpoint complete: wrote 2105916 buffers (25.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=158.031 s, sync=0.164 s, total=161.060 s; sync files=902, longest=0.127 s, average=0.000 s; distance=26836150 kB, estimate=26838205 kB
+1457957801.578 2016-03-14 12:16:41 UTC LOG:  checkpoint starting: xlog
+1457957948.714 2016-03-14 12:19:08 UTC LOG:  checkpoint complete: wrote 2101132 buffers (25.0%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=144.473 s, sync=0.012 s, total=147.135 s; sync files=911, longest=0.000 s, average=0.000 s; distance=26840133 kB, estimate=26840133 kB
+1457958052.563 2016-03-14 12:20:52 UTC LOG:  checkpoint starting: xlog
+1457958200.067 2016-03-14 12:23:20 UTC LOG:  checkpoint complete: wrote 1795268 buffers (21.4%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=144.547 s, sync=0.099 s, total=147.503 s; sync files=912, longest=0.069 s, average=0.000 s; distance=26841253 kB, estimate=26841253 kB
+1457958240.841 2016-03-14 12:24:00 UTC LOG:  automatic vacuum of table "pgbench.public.pgbench_history": index scans: 0
+	pages: 0 removed, 4788254 remain, 0 skipped due to pins, 3316235 skipped frozen
+	tuples: 0 removed, 650929662 remain, 0 are dead but not yet removable
+	buffer usage: 1510804 hits, 1434784 misses, 1472042 dirtied
+	avg read rate: 24.089 MB/s, avg write rate: 24.714 MB/s
+	system usage: CPU 35.30s/57.83u sec elapsed 465.33 sec
+1457958314.497 2016-03-14 12:25:14 UTC LOG:  checkpoint starting: xlog
+1457958471.178 2016-03-14 12:27:51 UTC LOG:  checkpoint complete: wrote 2099781 buffers (25.0%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=153.794 s, sync=0.048 s, total=156.681 s; sync files=910, longest=0.018 s, average=0.000 s; distance=26832900 kB, estimate=26840418 kB
+1457958580.651 2016-03-14 12:29:40 UTC LOG:  checkpoint starting: xlog
+1457958741.597 2016-03-14 12:32:21 UTC LOG:  checkpoint complete: wrote 2101507 buffers (25.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=158.145 s, sync=0.026 s, total=160.946 s; sync files=905, longest=0.001 s, average=0.000 s; distance=26835222 kB, estimate=26839898 kB
+1457958850.026 2016-03-14 12:34:10 UTC LOG:  checkpoint starting: xlog
+1457959011.019 2016-03-14 12:36:51 UTC LOG:  checkpoint complete: wrote 2104093 buffers (25.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=158.361 s, sync=0.017 s, total=160.993 s; sync files=903, longest=0.004 s, average=0.000 s; distance=26837680 kB, estimate=26839676 kB
+1457959122.157 2016-03-14 12:38:42 UTC LOG:  checkpoint starting: xlog
+1457959276.563 2016-03-14 12:41:16 UTC LOG:  checkpoint complete: wrote 2103437 buffers (25.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=151.397 s, sync=0.159 s, total=154.407 s; sync files=902, longest=0.114 s, average=0.000 s; distance=26837437 kB, estimate=26839453 kB
+1457959387.126 2016-03-14 12:43:07 UTC LOG:  checkpoint starting: xlog
+1457959513.407 2016-03-14 12:45:13 UTC LOG:  automatic analyze of table "pgbench.public.pgbench_history" system usage: CPU 1.09s/0.76u sec elapsed 25.01 sec
+1457959544.815 2016-03-14 12:45:44 UTC LOG:  checkpoint complete: wrote 2094821 buffers (25.0%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=154.366 s, sync=0.016 s, total=157.689 s; sync files=904, longest=0.001 s, average=0.000 s; distance=26835971 kB, estimate=26839104 kB
+1457959655.576 2016-03-14 12:47:35 UTC LOG:  checkpoint starting: xlog
+1457959812.736 2016-03-14 12:50:12 UTC LOG:  checkpoint complete: wrote 2119662 buffers (25.3%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=154.094 s, sync=0.066 s, total=157.160 s; sync files=905, longest=0.031 s, average=0.000 s; distance=26837921 kB, estimate=26838986 kB
+1457959920.507 2016-03-14 12:52:00 UTC LOG:  checkpoint starting: xlog
+1457960078.063 2016-03-14 12:54:38 UTC LOG:  checkpoint complete: wrote 2106518 buffers (25.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=154.863 s, sync=0.046 s, total=157.555 s; sync files=903, longest=0.024 s, average=0.000 s; distance=26836500 kB, estimate=26838737 kB
+1457960189.855 2016-03-14 12:56:29 UTC LOG:  checkpoint starting: xlog
+1457960343.796 2016-03-14 12:59:03 UTC LOG:  checkpoint complete: wrote 2105156 buffers (25.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=150.986 s, sync=0.092 s, total=153.941 s; sync files=903, longest=0.053 s, average=0.000 s; distance=26836625 kB, estimate=26838526 kB
+1457960453.448 2016-03-14 13:00:53 UTC LOG:  checkpoint starting: xlog
+1457960611.758 2016-03-14 13:03:31 UTC LOG:  checkpoint complete: wrote 2098902 buffers (25.0%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=155.386 s, sync=0.084 s, total=158.309 s; sync files=903, longest=0.060 s, average=0.000 s; distance=26836940 kB, estimate=26838368 kB
+1457960720.834 2016-03-14 13:05:20 UTC LOG:  checkpoint starting: xlog
+1457960879.358 2016-03-14 13:07:59 UTC LOG:  checkpoint complete: wrote 2107851 buffers (25.1%); 0 transaction log file(s) added, 1 removed, 1637 recycled; write=155.639 s, sync=0.166 s, total=158.523 s; sync files=903, longest=0.135 s, average=0.000 s; distance=26835522 kB, estimate=26838083 kB
+1457960991.549 2016-03-14 13:09:51 UTC LOG:  checkpoint starting: xlog
+1457961163.974 2016-03-14 13:12:43 UTC LOG:  checkpoint complete: wrote 2097571 buffers (25.0%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=169.663 s, sync=0.169 s, total=172.425 s; sync files=904, longest=0.129 s, average=0.000 s; distance=26838411 kB, estimate=26838411 kB
+1457961276.396 2016-03-14 13:14:36 UTC LOG:  checkpoint starting: xlog
+1457961442.624 2016-03-14 13:17:22 UTC LOG:  checkpoint complete: wrote 2114070 buffers (25.2%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=163.503 s, sync=0.024 s, total=166.227 s; sync files=904, longest=0.002 s, average=0.000 s; distance=26837619 kB, estimate=26838332 kB
+1457961550.474 2016-03-14 13:19:10 UTC LOG:  checkpoint starting: xlog
+1457961705.925 2016-03-14 13:21:45 UTC LOG:  checkpoint complete: wrote 2104955 buffers (25.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=152.494 s, sync=0.034 s, total=155.451 s; sync files=903, longest=0.005 s, average=0.000 s; distance=26833008 kB, estimate=26837800 kB
+1457961818.049 2016-03-14 13:23:38 UTC LOG:  checkpoint starting: xlog
+1457961971.341 2016-03-14 13:26:11 UTC LOG:  checkpoint complete: wrote 2105969 buffers (25.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=150.318 s, sync=0.021 s, total=153.291 s; sync files=903, longest=0.002 s, average=0.000 s; distance=26841521 kB, estimate=26841521 kB
+1457962079.150 2016-03-14 13:27:59 UTC LOG:  checkpoint starting: xlog
+1457962241.003 2016-03-14 13:30:40 UTC LOG:  checkpoint complete: wrote 2098099 buffers (25.0%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=159.060 s, sync=0.039 s, total=161.853 s; sync files=903, longest=0.004 s, average=0.000 s; distance=26835577 kB, estimate=26840926 kB
+1457962351.280 2016-03-14 13:32:31 UTC LOG:  checkpoint starting: xlog
+1457962508.432 2016-03-14 13:35:08 UTC LOG:  checkpoint complete: wrote 2104602 buffers (25.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=154.521 s, sync=0.036 s, total=157.152 s; sync files=903, longest=0.005 s, average=0.000 s; distance=26837202 kB, estimate=26840554 kB
+1457962617.177 2016-03-14 13:36:57 UTC LOG:  checkpoint starting: xlog
+1457962765.729 2016-03-14 13:39:25 UTC LOG:  checkpoint complete: wrote 2105011 buffers (25.1%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=145.201 s, sync=0.022 s, total=148.552 s; sync files=903, longest=0.004 s, average=0.000 s; distance=26838223 kB, estimate=26840321 kB
+1457962879.086 2016-03-14 13:41:19 UTC LOG:  checkpoint starting: xlog
+1457962896.280 2016-03-14 13:41:36 UTC LOG:  received fast shutdown request
+1457962896.280 2016-03-14 13:41:36 UTC LOG:  aborting any active transactions
+1457962896.280 2016-03-14 13:41:36 UTC FATAL:  terminating autovacuum process due to administrator command
+1457962896.280 2016-03-14 13:41:36 UTC LOG:  autovacuum launcher shutting down
+1457962958.570 2016-03-14 13:42:38 UTC LOG:  checkpoint complete: wrote 2146632 buffers (25.6%); 0 transaction log file(s) added, 0 removed, 1638 recycled; write=74.544 s, sync=0.007 s, total=79.484 s; sync files=903, longest=0.000 s, average=0.000 s; distance=26834649 kB, estimate=26839754 kB
+1457962958.572 2016-03-14 13:42:38 UTC LOG:  shutting down
+1457962958.575 2016-03-14 13:42:38 UTC LOG:  checkpoint starting: shutdown immediate
+1457962972.219 2016-03-14 13:42:52 UTC LOG:  checkpoint complete: wrote 108385 buffers (1.3%); 0 transaction log file(s) added, 15 removed, 1623 recycled; write=3.705 s, sync=0.010 s, total=13.646 s; sync files=887, longest=0.004 s, average=0.000 s; distance=1487302 kB, estimate=24304509 kB
+1457962984.461 2016-03-14 13:43:04 UTC LOG:  database system is shut down
